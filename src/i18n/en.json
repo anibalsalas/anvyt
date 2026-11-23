@@ -1,0 +1,414 @@
+{
+  "meta": {
+    "title": "anvynt | Custom Software Development",
+    "description": "anvynt builds custom software for businesses: websites, platforms, and digital solutions, with direct support via WhatsApp."
+  },
+  "nav": {
+    "brand": "anvynt",
+    "links": [
+      { "label": "About Us", "href": "#nosotros" },
+      { "label": "Plans", "href": "#planes" },
+      { "label": "Benefits", "href": "#beneficios" },
+      { "label": "Case Studies", "href": "#casos" }
+    ],
+    "cta": "Message Us",
+    "menuLabel": "Open menu",
+    "langLabel": "Choose language",
+    "langListLabel": "Available languages"
+  },
+  "hero": {
+    "eyebrow": "Custom software development",
+    "title": "We reorder complexity",
+    "subtitle": "Custom software development for companies that need clarity, not more complexity.",
+    "cta": "Request a quote",
+    "secondaryCta": "See success stories",
+    "whatsappMessage": "Hi, I'd like to request a quote from anvynt."
+  },
+  "nosotros": {
+    "eyebrow": "About Us",
+    "title": "anvynt: Custom software development that turns chaos into growth.",
+    "titleHighlight": "chaos into growth",
+    "body": "We work with companies facing scattered processes and disconnected systems. We reorder the pieces of every problem into simple, solid, and scalable digital solutions.",
+    "bodyHighlight": "simple, solid, and scalable digital solutions",
+    "cta": "Let's talk about your project",
+    "whatsappMessage": "Hi, I'd like to talk about how anvynt can help with my project.",
+    "comoTrabajamosTitle": "How we work",
+    "comoTrabajamosIntro": "We adapt to your structure. Led by Anival, we offer flexible engagement models:",
+    "comoTrabajamosItems": [
+      {
+        "title": "Individual consulting & integration",
+        "detail": "Ideal for specific needs, invoiced as independent professional services (Recibos por Honorarios)."
+      },
+      {
+        "title": "Full dedicated team",
+        "detail": "Deployment of our entire team with official corporate invoicing (Boleta/Factura)."
+      }
+    ]
+  },
+  "servicios": {
+    "title": "Services",
+    "cta": "Request via WhatsApp",
+    "items": [
+      {
+        "title": "Web development",
+        "description": "Custom websites and web platforms, fast and optimized to turn visitors into customers.",
+        "whatsappMessage": "Hi, I'd like information about Web Development from anvynt."
+      },
+      {
+        "title": "Custom systems",
+        "description": "Robust technology solutions to digitize, integrate, and scale your business's critical management and processes.",
+        "whatsappMessage": "Hi, I'd like information about Custom Systems from anvynt."
+      },
+      {
+        "title": "Web and mobile applications",
+        "description": "Connect with your users on any device through fast, secure, and highly scalable apps.",
+        "whatsappMessage": "Hi, I'd like information about Web and Mobile Applications from anvynt."
+      }
+    ]
+  },
+  "beneficios": {
+    "title": "Benefits",
+    "items": [
+      {
+        "title": "Tailored Solutions",
+        "description": "We develop personalized solutions for every client."
+      },
+      {
+        "title": "Ongoing Support",
+        "description": "We provide permanent technical support and maintenance."
+      },
+      {
+        "title": "Responsive Design",
+        "description": "Our platforms are optimized for any device."
+      }
+    ]
+  },
+  "casos": {
+    "title": "Successfully Implemented Systems",
+    "verCasoLabel": "View full case",
+    "items": [
+      {
+        "slug": "sisrh",
+        "client": "National Civil Defense Institute (INDECI)",
+        "result": "100% auditable payroll and elimination of legal risk before the Comptroller's Office.",
+        "description": "The official SISPER system (MEF) was rigid and forced payroll to be recalculated externally in Excel, losing traceability. anvynt developed SISRH, a transactional engine that replaces that fragile process, automates complex financial calculations, and integrates attendance control with full auditing.",
+        "metaTitle": "100% Auditable Payroll for the Public Sector | anvynt Case Study",
+        "metaDescription": "How anvynt replaced INDECI's manual Excel payroll recalculation with SISRH, a transactional engine that automates payroll and removes the risk before the Comptroller's Office.",
+        "industria": "Public Sector — Civil Defense",
+        "resumenSolucion": "Transactional payroll engine with full auditing and traceability.",
+        "tecnologias": [
+          "Custom web application",
+          "Transactional calculation engine",
+          "Integrated attendance control",
+          "Auditing and traceability",
+          "Report exporting"
+        ],
+        "enfoque": {
+          "objetivo": "Replace manual Excel recalculation —which caused loss of traceability and legal exposure before the Comptroller's Office— with a reliable, 100% auditable transactional engine.",
+          "acciones": [
+            "Assessed the payroll process and the calculation rules the official SISPER system didn't cover.",
+            "Designed a proprietary transactional calculation engine, independent of the MEF's rigid system.",
+            "Integrated attendance control as the single data source for wage calculations.",
+            "Added a full audit trail for every payroll movement."
+          ]
+        },
+        "solucion": {
+          "texto": "anvynt developed SISRH, a system that centralizes INDECI's payroll calculation and management in a single transactional engine, eliminating external spreadsheets and the inconsistencies that process caused.",
+          "capacidades": [
+            { "titulo": "Transactional Calculation Engine", "descripcion": "Automates complex payroll financial calculations, replacing manual Excel recalculation." },
+            { "titulo": "Integrated Attendance Control", "descripcion": "Joins attendance records with wage calculation in a single flow, with no manual steps in between." },
+            { "titulo": "Full Auditing", "descripcion": "Every calculation and movement is logged and traceable, ready for Comptroller's Office review." }
+          ]
+        },
+        "impacto": {
+          "texto": "The new system transformed INDECI's payroll management, leaving behind a fragile process with no traceability.",
+          "beneficios": [
+            "100% auditable payroll, removing the legal risk before the Comptroller's Office.",
+            "End of manual Excel recalculation and the traceability loss it caused.",
+            "Complex financial calculations automated end to end.",
+            "Attendance control and payroll integrated into a single flow."
+          ]
+        }
+      },
+      {
+        "slug": "fepma-verifica",
+        "client": "Ombudsman's Office (FEPMA)",
+        "result": "100% auditable platform with smart validations and full information traceability.",
+        "description": "Data collection and consolidation processes were carried out manually, generating inconsistencies and making institutional analysis difficult. anvynt developed FEPMA Verifica, a web system that automates data capture, incorporates validation rules and dynamic forms, ensures integrity control and traceability for every record, and exports solid, consistent information ready for data analysis and the generation of statistical indicators for national management and oversight.",
+        "metaTitle": "Data Automation for the Ombudsman's Office | anvynt Case Study",
+        "metaDescription": "FEPMA Verifica: the platform anvynt built to automate the capture, validation, and traceability of the Ombudsman's Office's institutional data.",
+        "industria": "Public Sector — Ombudsman's Office",
+        "resumenSolucion": "Data capture and validation platform with full traceability per record.",
+        "tecnologias": [
+          "Custom web application",
+          "Dynamic forms",
+          "Automated validation rules",
+          "Data integrity control",
+          "Export for statistical analysis"
+        ],
+        "enfoque": {
+          "objetivo": "Replace manual, inconsistency-prone information collection with a system that captures, validates, and consolidates data automatically and traceably.",
+          "acciones": [
+            "Mapped the manual data collection and consolidation processes in place.",
+            "Designed dynamic forms adapted to the institution's different record types.",
+            "Defined validation rules to guarantee the integrity of every captured record.",
+            "Built an export module ready for data analysis and statistical indicators."
+          ]
+        },
+        "solucion": {
+          "texto": "anvynt developed FEPMA Verifica, a web system that automates data capture and applies smart validations to every record, delivering solid information ready for national oversight.",
+          "capacidades": [
+            { "titulo": "Automated Data Capture", "descripcion": "Dynamic forms that replace manual collection and reduce the margin for error." },
+            { "titulo": "Smart Validation", "descripcion": "Validation and integrity rules applied at the moment of capture, not after the fact." },
+            { "titulo": "Per-Record Traceability", "descripcion": "Every record is linked to its origin and history, available for audit." }
+          ]
+        },
+        "impacto": {
+          "texto": "FEPMA Verifica changed how the Ombudsman's Office collects and analyzes its institutional information.",
+          "beneficios": [
+            "100% auditable platform, with full traceability for every record.",
+            "Smart validations that remove inconsistencies at the data's source.",
+            "Information ready for data analysis and statistical indicator generation.",
+            "Direct support for national-level management and oversight."
+          ]
+        }
+      },
+      {
+        "slug": "gdr-ffaa",
+        "client": "Armed Forces Procurement Agency",
+        "result": "100% digitization of the SERVIR evaluation cycle and automated generation of official reports.",
+        "description": "Performance evaluations required by the SERVIR Law were managed in isolated Word and Excel files, with no deadline control. anvynt developed a Performance Management System (GDR) that digitizes the entire annual cycle, automates the GDR PDF report, and applies access control based on 8 regulatory roles.",
+        "metaTitle": "Digitizing SERVIR Evaluations for Defense | anvynt Case Study",
+        "metaDescription": "anvynt fully digitized the SERVIR performance evaluation cycle for the Armed Forces Procurement Agency, with automated PDF reporting.",
+        "industria": "Public Sector — Defense",
+        "resumenSolucion": "Digitized the SERVIR performance evaluation cycle with role-based access control.",
+        "tecnologias": [
+          "Custom web application",
+          "Automated PDF generation",
+          "Role-based access control (RBAC)",
+          "Deadline control and approval flows",
+          "Official reporting"
+        ],
+        "enfoque": {
+          "objetivo": "Digitize the annual performance evaluation cycle required by the SERVIR Law, until now scattered across Word and Excel files with no deadline control.",
+          "acciones": [
+            "Assessed the SERVIR evaluation cycle and the regulatory roles involved.",
+            "Designed a single digital flow to replace the isolated Word and Excel files.",
+            "Automated the generation of the official GDR report as a PDF.",
+            "Implemented access control based on 8 distinct regulatory roles."
+          ]
+        },
+        "solucion": {
+          "texto": "anvynt developed the Performance Management System (GDR), which digitizes the full annual performance evaluation cycle for the Armed Forces Procurement Agency.",
+          "capacidades": [
+            { "titulo": "Digital Evaluation Cycle", "descripcion": "The full annual SERVIR cycle moves from isolated documents to a single digital flow with deadline control." },
+            { "titulo": "Automated Report Generation", "descripcion": "The GDR report is generated as a PDF automatically, ready for official submission." },
+            { "titulo": "Role-Based Access Control", "descripcion": "8 distinct regulatory roles, each with permissions tailored to its function within the evaluation cycle." }
+          ]
+        },
+        "impacto": {
+          "texto": "GDR turned a process scattered across Word and Excel into a digital, traceable evaluation cycle compliant with SERVIR regulations.",
+          "beneficios": [
+            "100% digitization of the SERVIR evaluation cycle.",
+            "Automated generation of official PDF reports.",
+            "Access control based on 8 regulatory roles.",
+            "End of isolated, deadline-uncontrolled Word and Excel files."
+          ]
+        }
+      }
+    ],
+    "detalle": {
+      "breadcrumbHome": "Home",
+      "breadcrumbCasos": "Case Studies",
+      "clienteLabel": "The Client",
+      "enfoqueLabel": "The Approach",
+      "objetivoLabel": "Objective",
+      "accionesLabel": "Key Actions",
+      "solucionLabel": "The Solution",
+      "capacidadesLabel": "Key Capabilities",
+      "impactoLabel": "The Impact",
+      "industriaLabel": "Industry",
+      "tecnologiasLabel": "Core Capabilities",
+      "resumenLabel": "Project Solution",
+      "breadcrumbLabel": "Breadcrumb",
+      "ctaTitle": "Have a similar challenge?",
+      "ctaSubtitle": "Let's talk about how anvynt can help you solve it.",
+      "ctaButton": "Message us on WhatsApp",
+      "ctaWhatsappTemplate": "Hi, I'd like more information about how anvynt solved the {client} case.",
+      "otrosCasosLabel": "Other Case Studies",
+      "volverLabel": "Back to Case Studies"
+    }
+  },
+  "planes": {
+    "title": "Our Service Packages",
+    "cta": "Request a quote",
+    "featuredLabel": "Recommended",
+    "idealParaLabel": "Ideal for:",
+    "incluyeLabel": "Includes:",
+    "funcionesPremiumLabel": "Premium Features:",
+    "ejemplosLabel": "Examples:",
+    "verMasLabel": "See what's included",
+    "verMenosLabel": "Hide details",
+    "items": [
+      {
+        "name": "Cash-on-Delivery E-commerce Catalog",
+        "tag": "Commercial Package",
+        "tagline": "A manageable online store for selling products with cash-on-delivery orders, catalog management, stock, customers, and order status tracking.",
+        "idealPara": "Businesses selling through Facebook, TikTok, Instagram, WhatsApp, or ad campaigns that need to organize their orders.",
+        "incluye": [
+          "Manageable catalog",
+          "Categories and products",
+          "Image gallery",
+          "Stock control",
+          "Cash-on-delivery checkout",
+          "WhatsApp notification",
+          "Admin panel",
+          "Sales reports",
+          "Manageable banners",
+          "Responsive page",
+          "Initial domain and deployment"
+        ],
+        "funcionesPremium": [
+          "Quick order confirmation",
+          "Order filtering by status, date, and customer",
+          "Excel export",
+          "Best-selling product tracking",
+          "Delivery log",
+          "Customer purchase history"
+        ],
+        "ejemplos": "Clothing store, accessories, viral products, perfumes, cosmetics, unregulated supplements, local delivery, bazaar, gifts, or digital catalog with orders via WhatsApp.",
+        "price": "From $150",
+        "whatsappMessage": "Hi, I'd like a quote for anvynt's Cash-on-Delivery E-commerce Catalog Package."
+      },
+      {
+        "name": "Access & Security Control",
+        "tagline": "Security, users, roles, and traceability for enterprise systems.",
+        "idealPara": "Companies that need to control access, permissions, and user activity.",
+        "incluye": [
+          "Secure login",
+          "Two-factor authentication (2FA)",
+          "RBAC roles and permissions",
+          "User management",
+          "Areas, sites, or units",
+          "Access auditing",
+          "Admin panel"
+        ],
+        "ejemplos": "Enterprise login, user panel, security for SaaS or internal systems.",
+        "price": "From $500",
+        "whatsappMessage": "Hi, I'd like a quote for anvynt's Access & Security Control Plan."
+      },
+      {
+        "name": "MVP / Core App",
+        "tagline": "A functional web application to validate, automate, or digitize a key business process.",
+        "idealPara": "Startups, companies, or teams that need to launch a functional system quickly.",
+        "incluye": [
+          "Full-stack development",
+          "Modular architecture",
+          "Advanced forms",
+          "Validations and rules",
+          "Admin panel",
+          "Reports and exports",
+          "Initial API integration",
+          "Initial cloud deployment"
+        ],
+        "ejemplos": "Web survey system, complex forms, internal requests, technical visits, SaaS MVP, or administrative app.",
+        "price": "From $2,500",
+        "whatsappMessage": "Hi, I'd like a quote for anvynt's MVP / Core App Plan."
+      },
+      {
+        "name": "Enterprise Platform",
+        "tagline": "Advanced digital platform for large-scale institutional or enterprise processes.",
+        "idealPara": "Public entities, municipalities, medium/large companies, and highly complex SaaS.",
+        "incluye": [
+          "Advanced SaaS architecture",
+          "Multi-user / multi-client",
+          "Specialized modules",
+          "Workflows and approvals",
+          "Work queues",
+          "Auditing and traceability",
+          "Management dashboards",
+          "Advanced integrations",
+          "Security and scalability",
+          "Premium support"
+        ],
+        "ejemplos": "CAS recruitment processes, HR, Performance Management, Electronic Inbox, Municipal Revenue, inspections, or survey platforms with offline app, GPS, and field supervision.",
+        "price": "From $3,500",
+        "whatsappMessage": "Hi, I'd like a quote for anvynt's Enterprise Platform Plan."
+      }
+    ]
+  },
+  "retainer": {
+    "title": "Subscription / Retainer Model",
+    "subtitle": "Team as a Service",
+    "intro": "If you'd prefer steady development capacity instead of closed-scope projects, this is the market-standard model to ensure continuous evolution of your platform.",
+    "alcanceLabel": "Scope:",
+    "featuredLabel": "Recommended",
+    "cta": "Request a quote",
+    "garantiasTitle": "How we work",
+    "garantias": [
+      {
+        "label": "Code transparency",
+        "detail": "The source code and intellectual property are 100% yours from day one."
+      },
+      {
+        "label": "Full flexibility",
+        "detail": "Pause or scale your plan month to month based on your business needs, with no long-term commitment."
+      },
+      {
+        "label": "Solid tech stack",
+        "detail": "Robust architectures, seamless backend integrations, and dynamic frontends, ready to scale."
+      }
+    ],
+    "items": [
+      {
+        "name": "Maintenance and Support",
+        "price": "$500 / month",
+        "description": "Ideal for keeping existing systems secure and up to date.",
+        "alcance": [
+          "Bug fixes, security updates, and small component adjustments.",
+          "Guaranteed response time under 24 hrs for critical incidents.",
+          "Monthly report on server status, network monitoring, and uptime."
+        ],
+        "whatsappMessage": "Hi, I'd like information about anvynt's Maintenance and Support plan."
+      },
+      {
+        "name": "Development Cell (Part-time)",
+        "price": "$1000 / month",
+        "description": "Ongoing development capacity to evolve your platform.",
+        "alcance": [
+          "Full-stack development focused on evolution.",
+          "Building new views and modular components (e.g. complex reactive forms).",
+          "Implementation of advanced validation scripts and data orchestration.",
+          "Biweekly sprint planning meetings."
+        ],
+        "whatsappMessage": "Hi, I'd like information about anvynt's Development Cell (Part-time)."
+      },
+      {
+        "name": "Dedicated Team",
+        "price": "From $2000 / month",
+        "description": "An in-house technology partner to accelerate your roadmap.",
+        "alcance": [
+          "Exclusive dedication and continuous deployment.",
+          "Assigned technical leadership and full system architecture.",
+          "Direct channel on Slack/Teams and access to a Jira/Trello board."
+        ],
+        "whatsappMessage": "Hi, I'd like information about anvynt's Dedicated Team plan."
+      }
+    ]
+  },
+  "footer": {
+    "text": "© {year} anvynt — All rights reserved.",
+    "tagline": "Software & technology",
+    "location": "Peru"
+  },
+  "whatsapp": {
+    "floatingLabel": "Message us on WhatsApp",
+    "defaultMessage": "Hi, I'd like more information about anvynt's services."
+  },
+  "notFound": {
+      "eyebrow": "Error 404",
+      "title": "This page doesn't exist",
+      "text": "The link may be broken or the page was moved.",
+      "cta": "Back to home"
+  }
+}

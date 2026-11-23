@@ -1,0 +1,414 @@
+{
+  "meta": {
+    "title": "anvynt | Desarrollo de Software a Medida",
+    "description": "anvynt desarrolla software a medida para empresas: sitios web, plataformas y soluciones digitales, con acompañamiento directo por WhatsApp."
+  },
+  "nav": {
+    "brand": "anvynt",
+    "links": [
+      { "label": "Nosotros", "href": "#nosotros" },
+      { "label": "Planes", "href": "#planes" },
+      { "label": "Beneficios", "href": "#beneficios" },
+      { "label": "Casos", "href": "#casos" }
+    ],
+    "cta": "Escríbenos",
+    "menuLabel": "Abrir menú",
+    "langLabel": "Elegir idioma",
+    "langListLabel": "Idiomas disponibles"
+  },
+  "hero": {
+    "eyebrow": "Desarrollo de software a medida",
+    "title": "Reordenamos la complejidad",
+    "subtitle": "Desarrollo de software a medida para empresas que necesitan claridad, no más complejidad.",
+    "cta": "Solicita una cotización",
+    "secondaryCta": "Ver casos de éxito",
+    "whatsappMessage": "Hola, quiero solicitar una cotización con anvynt."
+  },
+  "nosotros": {
+    "eyebrow": "Sobre Nosotros",
+    "title": "anvynt: Desarrollo de software a medida que transforma el caos en crecimiento.",
+    "titleHighlight": "caos en crecimiento",
+    "body": "Trabajamos con empresas que enfrentan procesos dispersos y sistemas desconectados. Reordenamos las piezas de cada problema hasta convertirlas en soluciones digitales simples, sólidas y escalables.",
+    "bodyHighlight": "soluciones digitales simples, sólidas y escalables",
+    "cta": "Conversemos sobre tu proyecto",
+    "whatsappMessage": "Hola, quiero conversar sobre cómo anvynt puede ayudar con mi proyecto.",
+    "comoTrabajamosTitle": "¿Cómo trabajamos?",
+    "comoTrabajamosIntro": "Nos adaptamos a tu estructura. Liderados por Anival, ofrecemos esquemas de contratación flexibles:",
+    "comoTrabajamosItems": [
+      {
+        "title": "Consultoría e integración individual",
+        "detail": "Ideal para necesidades puntuales, con emisión de Recibos por Honorarios."
+      },
+      {
+        "title": "Equipo completo dedicado",
+        "detail": "Despliegue de todo nuestro equipo con facturación corporativa (Boleta/Factura)."
+      }
+    ]
+  },
+  "servicios": {
+    "title": "Servicios",
+    "cta": "Solicitar por WhatsApp",
+    "items": [
+      {
+        "title": "Desarrollo web",
+        "description": "Sitios y plataformas web a medida, rápidas y optimizadas para convertir visitantes en clientes.",
+        "whatsappMessage": "Hola, quiero solicitar información sobre Desarrollo web con anvynt."
+      },
+      {
+        "title": "Sistemas a medida",
+        "description": "Soluciones tecnológicas robustas para digitalizar, integrar y escalar la gestión y los procesos críticos de tu negocio.",
+        "whatsappMessage": "Hola, quiero solicitar información sobre Sistemas a medida con anvynt."
+      },
+      {
+        "title": "Aplicaciones web y móviles",
+        "description": "Conecta con tus usuarios en cualquier dispositivo a través de apps rápidas, seguras y altamente escalables.",
+        "whatsappMessage": "Hola, quiero solicitar información sobre Aplicaciones web y móviles con anvynt."
+      }
+    ]
+  },
+  "beneficios": {
+    "title": "Beneficios",
+    "items": [
+      {
+        "title": "Soluciones a Medida",
+        "description": "Desarrollamos soluciones personalizadas para cada cliente."
+      },
+      {
+        "title": "Soporte Continuo",
+        "description": "Ofrecemos soporte técnico y mantenimiento permanente."
+      },
+      {
+        "title": "Diseño Responsivo",
+        "description": "Nuestras plataformas están optimizadas para cualquier dispositivo."
+      }
+    ]
+  },
+  "casos": {
+    "title": "Sistemas Implementados con éxito",
+    "verCasoLabel": "Ver caso completo",
+    "items": [
+      {
+        "slug": "sisrh",
+        "client": "Instituto Nacional de Defensa Civil (INDECI)",
+        "result": "Planillas 100% auditables y eliminación del riesgo legal ante Contraloría.",
+        "description": "El sistema oficial SISPER (MEF) era rígido y obligaba a recalcular las planillas en Excel de forma externa, perdiendo trazabilidad. anvynt desarrolló SISRH, un motor transaccional que reemplaza ese proceso frágil, automatiza los cálculos financieros complejos e integra el control de asistencia con auditoría completa.",
+        "metaTitle": "Planillas 100% Auditables para el Sector Público | Caso anvynt",
+        "metaDescription": "Cómo anvynt reemplazó el recálculo manual en Excel de INDECI con SISRH, un motor transaccional que automatiza planillas y elimina el riesgo ante Contraloría.",
+        "industria": "Sector Público — Defensa Civil",
+        "resumenSolucion": "Motor transaccional de planillas con auditoría y trazabilidad completa.",
+        "tecnologias": [
+          "Aplicación web a medida",
+          "Motor de cálculo transaccional",
+          "Control de asistencia integrado",
+          "Auditoría y trazabilidad",
+          "Exportación de reportes"
+        ],
+        "enfoque": {
+          "objetivo": "Reemplazar el recálculo manual en Excel —que generaba pérdida de trazabilidad y exposición ante Contraloría— por un motor transaccional confiable y 100% auditable.",
+          "acciones": [
+            "Relevamiento del proceso de planillas y de las reglas de cálculo que el sistema oficial SISPER no cubría.",
+            "Diseño de un motor de cálculo transaccional propio, independiente del sistema rígido del MEF.",
+            "Integración del control de asistencia como fuente única de datos para el cálculo de haberes.",
+            "Incorporación de un registro de auditoría completo sobre cada movimiento de planilla."
+          ]
+        },
+        "solucion": {
+          "texto": "anvynt desarrolló SISRH, un sistema que centraliza el cálculo y la gestión de planillas de INDECI en un único motor transaccional, eliminando el uso de hojas de cálculo externas y las inconsistencias que ese proceso generaba.",
+          "capacidades": [
+            { "titulo": "Motor de Cálculo Transaccional", "descripcion": "Automatiza los cálculos financieros complejos de planilla, sustituyendo el recálculo manual en Excel." },
+            { "titulo": "Control de Asistencia Integrado", "descripcion": "Une el registro de asistencia con el cálculo de haberes en un mismo flujo, sin pasos manuales intermedios." },
+            { "titulo": "Auditoría Completa", "descripcion": "Cada cálculo y movimiento queda registrado y es trazable, listo para revisión de Contraloría." }
+          ]
+        },
+        "impacto": {
+          "texto": "El nuevo sistema transformó la gestión de planillas de INDECI, dejando atrás un proceso frágil y sin trazabilidad.",
+          "beneficios": [
+            "Planillas 100% auditables, eliminando el riesgo legal ante Contraloría.",
+            "Fin del recálculo manual en Excel y de la pérdida de trazabilidad asociada.",
+            "Cálculos financieros complejos automatizados de punta a punta.",
+            "Control de asistencia y planillas integrados en un solo flujo."
+          ]
+        }
+      },
+      {
+        "slug": "fepma-verifica",
+        "client": "Defensoría del Pueblo (FEPMA)",
+        "result": "Plataforma 100% auditable con validaciones inteligentes y trazabilidad completa de la información.",
+        "description": "Los procesos de recolección y consolidación de información se realizaban de forma manual, generando inconsistencias y dificultando el análisis institucional. anvynt desarrolló FEPMA Verifica, un sistema web que automatiza la captura de datos, incorpora reglas de validación, formularios dinámicos, control de integridad y trazabilidad de cada registro, exportando información sólida y consistente lista para el análisis de datos y la generación de indicadores estadísticos para la gestión y supervisión nacional.",
+        "metaTitle": "Automatización de Datos para la Defensoría del Pueblo | Caso anvynt",
+        "metaDescription": "FEPMA Verifica: la plataforma que anvynt desarrolló para automatizar la captura, validación y trazabilidad de datos institucionales de la Defensoría del Pueblo.",
+        "industria": "Sector Público — Defensoría del Pueblo",
+        "resumenSolucion": "Plataforma de captura y validación de datos con trazabilidad completa por registro.",
+        "tecnologias": [
+          "Aplicación web a medida",
+          "Formularios dinámicos",
+          "Reglas de validación automatizadas",
+          "Control de integridad de datos",
+          "Exportación para análisis estadístico"
+        ],
+        "enfoque": {
+          "objetivo": "Sustituir la recolección manual de información —propensa a inconsistencias— por un sistema que capture, valide y consolide los datos de forma automática y trazable.",
+          "acciones": [
+            "Mapeo de los procesos de recolección y consolidación de información que se manejaban de forma manual.",
+            "Diseño de formularios dinámicos adaptados a los distintos tipos de registro institucional.",
+            "Definición de reglas de validación para garantizar la integridad de cada dato capturado.",
+            "Construcción de un módulo de exportación listo para análisis de datos e indicadores estadísticos."
+          ]
+        },
+        "solucion": {
+          "texto": "anvynt desarrolló FEPMA Verifica, un sistema web que automatiza la captura de datos y aplica validaciones inteligentes en cada registro, entregando información sólida y lista para la supervisión nacional.",
+          "capacidades": [
+            { "titulo": "Captura de Datos Automatizada", "descripcion": "Formularios dinámicos que reemplazan la recolección manual y reducen el margen de error." },
+            { "titulo": "Validación Inteligente", "descripcion": "Reglas de validación e integridad que se aplican en el momento de la captura, no después." },
+            { "titulo": "Trazabilidad por Registro", "descripcion": "Cada dato queda vinculado a su origen y su historial, disponible para auditoría." }
+          ]
+        },
+        "impacto": {
+          "texto": "FEPMA Verifica cambió la forma en que la Defensoría del Pueblo recolecta y analiza su información institucional.",
+          "beneficios": [
+            "Plataforma 100% auditable, con trazabilidad completa de cada registro.",
+            "Validaciones inteligentes que eliminan inconsistencias en el origen del dato.",
+            "Información lista para el análisis de datos y la generación de indicadores estadísticos.",
+            "Soporte directo a la gestión y supervisión a nivel nacional."
+          ]
+        }
+      },
+      {
+        "slug": "gdr-ffaa",
+        "client": "Agencia de Compras de las Fuerzas Armadas",
+        "result": "Digitalización al 100% del ciclo de evaluación SERVIR y generación automatizada de reportes oficiales.",
+        "description": "Las evaluaciones de desempeño exigidas por la Ley SERVIR se gestionaban en Word y Excel aislados, sin control de plazos. anvynt desarrolló un Sistema de Gestión del Rendimiento (GDR) que digitaliza el ciclo anual completo, automatiza el Formato GDR en PDF y aplica control de acceso basado en 8 roles normativos.",
+        "metaTitle": "Digitalización de Evaluaciones SERVIR en Defensa | Caso anvynt",
+        "metaDescription": "anvynt digitalizó al 100% el ciclo de evaluación de desempeño SERVIR de la Agencia de Compras de las Fuerzas Armadas, con reportes PDF automatizados.",
+        "industria": "Sector Público — Defensa",
+        "resumenSolucion": "Digitalización del ciclo de evaluación de desempeño SERVIR con control de acceso por roles.",
+        "tecnologias": [
+          "Aplicación web a medida",
+          "Generación automatizada de PDF",
+          "Control de acceso basado en roles (RBAC)",
+          "Control de plazos y flujos de aprobación",
+          "Reportes oficiales"
+        ],
+        "enfoque": {
+          "objetivo": "Digitalizar el ciclo anual de evaluación de desempeño exigido por la Ley SERVIR, hoy disperso en documentos de Word y Excel sin control de plazos.",
+          "acciones": [
+            "Relevamiento del ciclo de evaluación SERVIR y de los roles normativos involucrados.",
+            "Diseño de un flujo digital único que reemplaza los documentos aislados de Word y Excel.",
+            "Automatización de la generación del Formato GDR en PDF conforme a la normativa.",
+            "Implementación de control de acceso basado en 8 roles normativos distintos."
+          ]
+        },
+        "solucion": {
+          "texto": "anvynt desarrolló el Sistema de Gestión del Rendimiento (GDR), que digitaliza el ciclo anual completo de evaluación de desempeño de la Agencia de Compras de las Fuerzas Armadas.",
+          "capacidades": [
+            { "titulo": "Ciclo de Evaluación Digital", "descripcion": "El ciclo anual SERVIR completo pasa de documentos aislados a un flujo digital único y con control de plazos." },
+            { "titulo": "Generación Automatizada de Reportes", "descripcion": "El Formato GDR se genera en PDF de forma automática, listo para presentación oficial." },
+            { "titulo": "Control de Acceso por Roles", "descripcion": "8 roles normativos distintos, cada uno con permisos ajustados a su función dentro del ciclo de evaluación." }
+          ]
+        },
+        "impacto": {
+          "texto": "El GDR transformó un proceso disperso en Word y Excel en un ciclo de evaluación digital, trazable y conforme a la normativa SERVIR.",
+          "beneficios": [
+            "Digitalización al 100% del ciclo de evaluación SERVIR.",
+            "Generación automatizada de reportes oficiales en PDF.",
+            "Control de acceso basado en 8 roles normativos.",
+            "Fin del uso de Word y Excel aislados, sin control de plazos."
+          ]
+        }
+      }
+    ],
+    "detalle": {
+      "breadcrumbHome": "Inicio",
+      "breadcrumbCasos": "Casos",
+      "clienteLabel": "El Cliente",
+      "enfoqueLabel": "El Enfoque",
+      "objetivoLabel": "Objetivo",
+      "accionesLabel": "Acciones Clave",
+      "solucionLabel": "La Solución",
+      "capacidadesLabel": "Capacidades Clave",
+      "impactoLabel": "El Impacto",
+      "industriaLabel": "Industria",
+      "tecnologiasLabel": "Tecnologías Principales",
+      "resumenLabel": "Solución del Proyecto",
+      "breadcrumbLabel": "Ruta de navegación",
+      "ctaTitle": "¿Tenés un reto similar?",
+      "ctaSubtitle": "Conversemos sobre cómo anvynt puede ayudarte a resolverlo.",
+      "ctaButton": "Escríbenos por WhatsApp",
+      "ctaWhatsappTemplate": "Hola, quiero más información sobre cómo anvynt resolvió el caso de {client}.",
+      "otrosCasosLabel": "Otros Casos",
+      "volverLabel": "Volver a Casos"
+    }
+  },
+  "planes": {
+    "title": "Nuestros Paquetes de Servicios",
+    "cta": "Solicita una cotización",
+    "featuredLabel": "Recomendado",
+    "idealParaLabel": "Ideal para:",
+    "incluyeLabel": "Incluye:",
+    "funcionesPremiumLabel": "Funciones Premium:",
+    "ejemplosLabel": "Ejemplos:",
+    "verMasLabel": "Ver qué incluye",
+    "verMenosLabel": "Ocultar detalles",
+    "items": [
+      {
+        "name": "Catálogo Ecommerce Contraentrega",
+        "tag": "Paquete Comercial",
+        "tagline": "Tienda online administrable para vender productos con pedidos contraentrega, gestión de catálogo, stock, clientes y estados de venta.",
+        "idealPara": "Negocios que venden por Facebook, TikTok, Instagram, WhatsApp o campañas de anuncios y necesitan ordenar sus pedidos.",
+        "incluye": [
+          "Catálogo administrable",
+          "Categorías y productos",
+          "Galería de imágenes",
+          "Control de stock",
+          "Checkout contraentrega",
+          "Notificación por WhatsApp",
+          "Panel administrativo",
+          "Reportes de ventas",
+          "Banners administrables",
+          "Página responsive",
+          "Dominio y despliegue inicial"
+        ],
+        "funcionesPremium": [
+          "Confirmación rápida de pedidos",
+          "Filtro de pedidos por estado, fecha y cliente",
+          "Exportación Excel",
+          "Control de productos más vendidos",
+          "Registro de entregas",
+          "Historial de compras del cliente"
+        ],
+        "ejemplos": "Tienda de ropa, accesorios, productos virales, perfumes, cosméticos, suplementos no regulados, delivery local, bazar, regalos o catálogo digital con pedidos por WhatsApp.",
+        "price": "Desde $150",
+        "whatsappMessage": "Hola, quiero cotizar el Paquete Catálogo Ecommerce Contraentrega de anvynt."
+      },
+      {
+        "name": "Control & Accesos",
+        "tagline": "Seguridad, usuarios, roles y trazabilidad para sistemas empresariales.",
+        "idealPara": "Empresas que necesitan controlar accesos, permisos y actividad de usuarios.",
+        "incluye": [
+          "Login seguro",
+          "Doble factor 2FA",
+          "Roles y permisos RBAC",
+          "Gestión de usuarios",
+          "Áreas, sedes o unidades",
+          "Auditoría de accesos",
+          "Panel administrativo"
+        ],
+        "ejemplos": "Login empresarial, panel de usuarios, seguridad para SaaS o sistemas internos.",
+        "price": "Desde $500",
+        "whatsappMessage": "Hola, quiero cotizar el Plan Control & Accesos de anvynt."
+      },
+      {
+        "name": "MVP / Core App",
+        "tagline": "Aplicación web funcional para validar, automatizar o digitalizar un proceso clave de negocio.",
+        "idealPara": "Startups, empresas o equipos que necesitan lanzar un sistema funcional en poco tiempo.",
+        "incluye": [
+          "Desarrollo full-stack",
+          "Arquitectura modular",
+          "Formularios avanzados",
+          "Validaciones y reglas",
+          "Panel administrativo",
+          "Reportes y exportaciones",
+          "Integración inicial APIs",
+          "Despliegue cloud inicial"
+        ],
+        "ejemplos": "Sistema de encuestas web, formularios complejos, solicitudes internas, visitas técnicas, MVP SaaS o app administrativa.",
+        "price": "Desde $2,500",
+        "whatsappMessage": "Hola, quiero cotizar el Plan MVP / Core App de anvynt."
+      },
+      {
+        "name": "Plataforma Enterprise",
+        "tagline": "Plataforma digital avanzada para procesos institucionales o empresariales de gran alcance.",
+        "idealPara": "Entidades públicas, municipalidades, empresas medianas/grandes y SaaS de alta complejidad.",
+        "incluye": [
+          "Arquitectura SaaS avanzada",
+          "Multiusuario / multicliente",
+          "Módulos especializados",
+          "Workflows y aprobaciones",
+          "Bandejas de trabajo",
+          "Auditoría y trazabilidad",
+          "Dashboards gerenciales",
+          "Integraciones avanzadas",
+          "Seguridad y escalabilidad",
+          "Soporte premium"
+        ],
+        "ejemplos": "Convocatorias CAS, RRHH, Gestión de Rendimiento, Casilla Electrónica, Rentas Municipales, fiscalización, inspecciones o plataformas de encuestas con app offline, GPS y supervisión de campo.",
+        "price": "Desde $3,500",
+        "whatsappMessage": "Hola, quiero cotizar el Plan Plataforma Enterprise de anvynt."
+      }
+    ]
+  },
+  "retainer": {
+    "title": "Modelo de Suscripción / Retainer",
+    "subtitle": "Team as a Service",
+    "intro": "Si prefieres capacidad de desarrollo constante en lugar de proyectos cerrados, este es el modelo estándar del mercado para asegurar evolución continua a tu plataforma.",
+    "alcanceLabel": "Alcance:",
+    "featuredLabel": "Recomendado",
+    "cta": "Solicita una cotización",
+    "garantiasTitle": "Cómo trabajamos",
+    "garantias": [
+      {
+        "label": "Transparencia de código",
+        "detail": "El código fuente y la propiedad intelectual son 100% tuyos desde el día uno."
+      },
+      {
+        "label": "Flexibilidad total",
+        "detail": "Pausa o escala tu plan mes a mes según las necesidades de tu negocio, sin ataduras a largo plazo."
+      },
+      {
+        "label": "Stack tecnológico sólido",
+        "detail": "Arquitecturas robustas, integraciones backend fluidas y frontends dinámicos, listos para escalar."
+      }
+    ],
+    "items": [
+      {
+        "name": "Mantenimiento y Soporte",
+        "price": "$500 / mes",
+        "description": "Ideal para mantener sistemas existentes seguros y actualizados.",
+        "alcance": [
+          "Resolución de bugs, actualizaciones de seguridad y pequeños ajustes en componentes.",
+          "Tiempo de respuesta garantizado < 24 hrs para incidentes críticos.",
+          "Reporte mensual de estado del servidor, monitoreo de red y uptime."
+        ],
+        "whatsappMessage": "Hola, quiero información sobre el plan de Mantenimiento y Soporte de anvynt."
+      },
+      {
+        "name": "Célula de Desarrollo (Part-time)",
+        "price": "$1000 / mes",
+        "description": "Capacidad de desarrollo continuo para evolucionar tu plataforma.",
+        "alcance": [
+          "Desarrollo full-stack enfocado en evolución.",
+          "Construcción de nuevas vistas y componentes modulares (ej. formularios reactivos complejos).",
+          "Implementación de scripts de validación avanzada y orquestación de datos.",
+          "Reuniones quincenales de planificación (Sprint Planning)."
+        ],
+        "whatsappMessage": "Hola, quiero información sobre la Célula de Desarrollo (Part-time) de anvynt."
+      },
+      {
+        "name": "Equipo Dedicado",
+        "price": "Desde $2000 / mes",
+        "description": "Un socio tecnológico in-house para acelerar tu roadmap.",
+        "alcance": [
+          "Dedicación exclusiva y despliegue continuo.",
+          "Asignación de liderazgo técnico y arquitectura integral del sistema.",
+          "Canal directo en Slack/Teams y acceso a tablero de Jira/Trello."
+        ],
+        "whatsappMessage": "Hola, quiero información sobre el plan Equipo Dedicado de anvynt."
+      }
+    ]
+  },
+  "footer": {
+    "text": "© {year} anvynt — Todos los derechos reservados.",
+    "tagline": "Software & technology",
+    "location": "Perú"
+  },
+  "whatsapp": {
+    "floatingLabel": "Escríbenos por WhatsApp",
+    "defaultMessage": "Hola, quiero más información sobre los servicios de anvynt."
+  },
+  "notFound": {
+      "eyebrow": "Error 404",
+      "title": "Esta página no existe",
+      "text": "El enlace puede estar roto o la página fue movida.",
+      "cta": "Volver al inicio"
+  }
+}
