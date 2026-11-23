@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { whatsappLink } from "@/lib/whatsapp";
 
 export default function PlanCard({ plan, labels, featured }) {
   const [open, setOpen] = useState(false);
@@ -119,17 +118,6 @@ export default function PlanCard({ plan, labels, featured }) {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="mt-6">
-        <a
-          href={whatsappLink(plan.whatsappMessage)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block rounded-full bg-whatsapp px-5 py-2 text-center text-sm font-semibold text-white transition-colors hover:bg-whatsapp/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-whatsapp"
-        >
-          {labels.cta}
-        </a>
       </div>
     </div>
   );

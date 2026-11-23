@@ -1,4 +1,5 @@
 import PlanCard from "@/components/PlanCard";
+import QuoteCTA from "@/components/QuoteCTA";
 
 export default function Planes({ copy }) {
   return (
@@ -16,6 +17,7 @@ export default function Planes({ copy }) {
             <PlanCard key={plan.name} plan={plan} labels={copy.planes} featured={plan.name === "MVP / Core App"} />
           ))}
         </div>
+        <QuoteCTA copy={copy.planes.quote} />
       </div>
     </section>
   );

@@ -302,6 +302,22 @@
     "title": "Our Service Packages",
     "cta": "Request a quote",
     "featuredLabel": "Recommended",
+    "quote": {
+      "button": "Request a custom quote",
+      "choiceTitle": "How would you like us to reach you?",
+      "whatsapp": "Via WhatsApp",
+      "whatsappMessage": "Hi, I'd like a custom quote from anvynt.",
+      "email": "Leave my email",
+      "emailLabel": "Your email address",
+      "emailPlaceholder": "you@company.com",
+      "submit": "Send",
+      "sending": "Sending…",
+      "success": "Thank you! We'll be in touch soon.",
+      "invalid": "Enter a valid email.",
+      "error": "We couldn't send your email. Try again or message us on WhatsApp.",
+      "back": "Back",
+      "closeLabel": "Close options"
+    },
     "idealParaLabel": "Ideal for:",
     "incluyeLabel": "Includes:",
     "funcionesPremiumLabel": "Premium Features:",
@@ -309,36 +325,6 @@
     "verMasLabel": "See what's included",
     "verMenosLabel": "Hide details",
     "items": [
-      {
-        "name": "Cash-on-Delivery E-commerce Catalog",
-        "tag": "Commercial Package",
-        "tagline": "A manageable online store for selling products with cash-on-delivery orders, catalog management, stock, customers, and order status tracking.",
-        "idealPara": "Businesses selling through Facebook, TikTok, Instagram, WhatsApp, or ad campaigns that need to organize their orders.",
-        "incluye": [
-          "Manageable catalog",
-          "Categories and products",
-          "Image gallery",
-          "Stock control",
-          "Cash-on-delivery checkout",
-          "WhatsApp notification",
-          "Admin panel",
-          "Sales reports",
-          "Manageable banners",
-          "Responsive page",
-          "Initial domain and deployment"
-        ],
-        "funcionesPremium": [
-          "Quick order confirmation",
-          "Order filtering by status, date, and customer",
-          "Excel export",
-          "Best-selling product tracking",
-          "Delivery log",
-          "Customer purchase history"
-        ],
-        "ejemplos": "Clothing store, accessories, viral products, perfumes, cosmetics, unregulated supplements, local delivery, bazaar, gifts, or digital catalog with orders via WhatsApp.",
-        "price": "From $150",
-        "whatsappMessage": "Hi, I'd like a quote for anvynt's Cash-on-Delivery E-commerce Catalog Package."
-      },
       {
         "name": "Access & Security Control",
         "tagline": "Security, users, roles, and traceability for enterprise systems.",
@@ -355,6 +341,42 @@
         "ejemplos": "Enterprise login, user panel, security for SaaS or internal systems.",
         "price": "From $500",
         "whatsappMessage": "Hi, I'd like a quote for anvynt's Access & Security Control Plan."
+      },
+      {
+        "name": "Cash-on-Delivery E-commerce Catalog",
+        "tag": "Commercial Package",
+        "tagline": "A manageable online store for selling products with cash-on-delivery orders, catalog management, stock, customers, and order status tracking.",
+        "idealPara": "Businesses selling through Facebook, TikTok, Instagram, WhatsApp, or ad campaigns that need to organize their orders.",
+        "incluye": [
+          "Manageable catalog",
+          "Categories and products",
+          "Image gallery",
+          "Stock control",
+          "Cash-on-delivery checkout",
+          "WhatsApp notification",
+          "Admin panel",
+          "Sales reports",
+          "Manageable banners",
+          "Responsive page",
+          "Initial domain and deployment",
+          "Secure login",
+          "Two-factor authentication (2FA)",
+          "RBAC roles and permissions",
+          "User management",
+          "Areas, sites, or units",
+          "Access auditing"
+        ],
+        "funcionesPremium": [
+          "Quick order confirmation",
+          "Order filtering by status, date, and customer",
+          "Excel export",
+          "Best-selling product tracking",
+          "Delivery log",
+          "Customer purchase history"
+        ],
+        "ejemplos": "Clothing store, accessories, viral products, perfumes, cosmetics, unregulated supplements, local delivery, bazaar, gifts, or digital catalog with orders via WhatsApp.",
+        "price": "From $650",
+        "whatsappMessage": "Hi, I'd like a quote for anvynt's Cash-on-Delivery E-commerce Catalog Package."
       },
       {
         "name": "MVP / Core App",

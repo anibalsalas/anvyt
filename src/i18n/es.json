@@ -302,6 +302,22 @@
     "title": "Nuestros Paquetes de Servicios",
     "cta": "Solicita una cotización",
     "featuredLabel": "Recomendado",
+    "quote": {
+      "button": "Solicita una cotización a medida",
+      "choiceTitle": "¿Cómo prefieres que te contactemos?",
+      "whatsapp": "Por WhatsApp",
+      "whatsappMessage": "Hola, quiero una cotización a medida de anvynt.",
+      "email": "Dejar mi correo",
+      "emailLabel": "Tu correo electrónico",
+      "emailPlaceholder": "tu@empresa.com",
+      "submit": "Enviar",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Te escribiremos pronto.",
+      "invalid": "Ingresa un correo válido.",
+      "error": "No pudimos enviar tu correo. Inténtalo de nuevo o escríbenos por WhatsApp.",
+      "back": "Volver",
+      "closeLabel": "Cerrar opciones"
+    },
     "idealParaLabel": "Ideal para:",
     "incluyeLabel": "Incluye:",
     "funcionesPremiumLabel": "Funciones Premium:",
@@ -309,6 +325,23 @@
     "verMasLabel": "Ver qué incluye",
     "verMenosLabel": "Ocultar detalles",
     "items": [
+      {
+        "name": "Control & Accesos",
+        "tagline": "Seguridad, usuarios, roles y trazabilidad para sistemas empresariales.",
+        "idealPara": "Empresas que necesitan controlar accesos, permisos y actividad de usuarios.",
+        "incluye": [
+          "Login seguro",
+          "Doble factor 2FA",
+          "Roles y permisos RBAC",
+          "Gestión de usuarios",
+          "Áreas, sedes o unidades",
+          "Auditoría de accesos",
+          "Panel administrativo"
+        ],
+        "ejemplos": "Login empresarial, panel de usuarios, seguridad para SaaS o sistemas internos.",
+        "price": "Desde $400",
+        "whatsappMessage": "Hola, quiero cotizar el Plan Control & Accesos de anvynt."
+      },
       {
         "name": "Catálogo Ecommerce Contraentrega",
         "tag": "Paquete Comercial",
@@ -325,7 +358,13 @@
           "Reportes de ventas",
           "Banners administrables",
           "Página responsive",
-          "Dominio y despliegue inicial"
+          "Dominio y despliegue inicial",
+          "Login seguro",
+          "Doble factor 2FA",
+          "Roles y permisos RBAC",
+          "Gestión de usuarios",
+          "Áreas, sedes o unidades",
+          "Auditoría de accesos"
         ],
         "funcionesPremium": [
           "Confirmación rápida de pedidos",
@@ -336,25 +375,8 @@
           "Historial de compras del cliente"
         ],
         "ejemplos": "Tienda de ropa, accesorios, productos virales, perfumes, cosméticos, suplementos no regulados, delivery local, bazar, regalos o catálogo digital con pedidos por WhatsApp.",
-        "price": "Desde $150",
+        "price": "Desde $600",
         "whatsappMessage": "Hola, quiero cotizar el Paquete Catálogo Ecommerce Contraentrega de anvynt."
-      },
-      {
-        "name": "Control & Accesos",
-        "tagline": "Seguridad, usuarios, roles y trazabilidad para sistemas empresariales.",
-        "idealPara": "Empresas que necesitan controlar accesos, permisos y actividad de usuarios.",
-        "incluye": [
-          "Login seguro",
-          "Doble factor 2FA",
-          "Roles y permisos RBAC",
-          "Gestión de usuarios",
-          "Áreas, sedes o unidades",
-          "Auditoría de accesos",
-          "Panel administrativo"
-        ],
-        "ejemplos": "Login empresarial, panel de usuarios, seguridad para SaaS o sistemas internos.",
-        "price": "Desde $500",
-        "whatsappMessage": "Hola, quiero cotizar el Plan Control & Accesos de anvynt."
       },
       {
         "name": "MVP / Core App",
@@ -371,7 +393,7 @@
           "Despliegue cloud inicial"
         ],
         "ejemplos": "Sistema de encuestas web, formularios complejos, solicitudes internas, visitas técnicas, MVP SaaS o app administrativa.",
-        "price": "Desde $2,500",
+        "price": "Solicita cotización una medida",
         "whatsappMessage": "Hola, quiero cotizar el Plan MVP / Core App de anvynt."
       },
       {
@@ -391,7 +413,7 @@
           "Soporte premium"
         ],
         "ejemplos": "Convocatorias CAS, RRHH, Gestión de Rendimiento, Casilla Electrónica, Rentas Municipales, fiscalización, inspecciones o plataformas de encuestas con app offline, GPS y supervisión de campo.",
-        "price": "Desde $3,500",
+         "price": "Solicita cotización una medida",
         "whatsappMessage": "Hola, quiero cotizar el Plan Plataforma Enterprise de anvynt."
       }
     ]
