@@ -17,12 +17,71 @@
     "langListLabel": "Available languages"
   },
   "hero": {
-    "eyebrow": "Custom software development",
-    "title": "We reorder complexity",
-    "subtitle": "Custom software development for companies that need clarity, not more complexity.",
+    "title": "We transform your operation with",
+    "titleHighlight": "Software + AI",
+    "subtitle": "We build and integrate modern, secure and scalable business solutions, powered by artificial intelligence to deliver more efficiency, control and better decisions.",
     "cta": "Request a quote",
     "secondaryCta": "See success stories",
-    "whatsappMessage": "Hi, I'd like to request a quote from anvynt."
+    "whatsappMessage": "Hi, I'd like to request a quote from anvynt.",
+    "checks": [
+      "Tailor-made solutions",
+      "Reliable technology",
+      "Ongoing support"
+    ],
+    "industriesLabel": "Industries we serve",
+    "industries": [
+      {
+        "icon": "gov",
+        "label": "Public Sector"
+      },
+      {
+        "icon": "building",
+        "label": "Business"
+      },
+      {
+        "icon": "health",
+        "label": "Healthcare"
+      },
+      {
+        "icon": "edu",
+        "label": "Education"
+      },
+      {
+        "icon": "users",
+        "label": "Human Resources"
+      },
+      {
+        "icon": "coins",
+        "label": "Finance"
+      },
+      {
+        "icon": "truck",
+        "label": "Logistics"
+      }
+    ],
+    "visual": {
+      "aria": "Illustration of a platform with an artificial intelligence assistant",
+      "greeting": "Hi, how can we help?",
+      "placeholder": "Ask about your processes, data or documents…",
+      "cards": [
+        {
+          "icon": "doc",
+          "label": "AI Document Management"
+        },
+        {
+          "icon": "layers",
+          "label": "Process Automation"
+        },
+        {
+          "icon": "chart",
+          "label": "Predictive Analytics"
+        },
+        {
+          "icon": "chat",
+          "label": "Enterprise Assistant"
+        }
+      ]
+    }
   },
   "nosotros": {
     "eyebrow": "About Us",

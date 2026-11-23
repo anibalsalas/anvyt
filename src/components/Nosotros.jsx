@@ -16,7 +16,7 @@ export default function Nosotros({ copy }) {
 
         <div className="mt-8 grid grid-cols-1 gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
           <div>
-            <h2 className="font-monda text-3xl font-bold leading-[1.15] tracking-wordmark text-carbon sm:text-4xl md:text-[2.75rem]">
+            <h2 className="font-display text-3xl font-bold leading-[1.15] tracking-wordmark text-carbon sm:text-4xl md:text-[2.75rem]">
               {titleBefore}
               <span className="text-accent-deep">{n.titleHighlight}</span>
               {titleAfter}
@@ -42,7 +42,7 @@ export default function Nosotros({ copy }) {
           </div>
 
           <div className="rounded-2xl border border-carbon/10 bg-white p-8 shadow-sm">
-            <h3 className="font-monda text-xl font-bold tracking-wide text-carbon">
+            <h3 className="font-display text-xl font-bold tracking-wide text-carbon">
               {n.comoTrabajamosTitle}
             </h3>
             <p className="mt-3 text-sm leading-relaxed text-carbon/70">{n.comoTrabajamosIntro}</p>

@@ -5,7 +5,7 @@ export default function Beneficios({ copy }) {
       <div className="relative mx-auto max-w-6xl">
         <div className="mb-14 max-w-xl">
           <span className="font-mono text-xs uppercase tracking-[0.2em] text-accent-light">03</span>
-          <h2 className="mt-3 font-monda text-3xl font-bold tracking-wordmark text-white sm:text-4xl">
+          <h2 className="mt-3 font-display text-3xl font-bold tracking-wordmark text-white sm:text-4xl">
             {copy.beneficios.title}
           </h2>
         </div>

@@ -1,17 +1,10 @@
-import { Monda, Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
+import { Figtree, JetBrains_Mono } from "next/font/google";
 
-export const monda = Monda({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  display: "swap",
-  variable: "--font-monda",
-});
-
-export const jakarta = Plus_Jakarta_Sans({
+export const figtree = Figtree({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
   display: "swap",
-  variable: "--font-jakarta",
+  variable: "--font-figtree",
 });
 
 export const jetbrainsMono = JetBrains_Mono({

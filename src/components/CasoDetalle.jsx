@@ -56,7 +56,7 @@ export default function CasoDetalle({ copy, locale, caso }) {
             {caso.client}
           </div>
 
-          <h1 className="mt-4 max-w-3xl font-monda text-3xl font-bold leading-[1.1] tracking-wordmark text-white sm:text-4xl md:text-5xl">
+          <h1 className="mt-4 max-w-3xl font-display text-3xl font-bold leading-[1.1] tracking-wordmark text-white sm:text-4xl md:text-5xl">
             {caso.result}
           </h1>
         </div>
@@ -69,7 +69,7 @@ export default function CasoDetalle({ copy, locale, caso }) {
             <div className="pointer-events-none absolute -right-16 -top-16 h-64 w-64 rounded-full bg-brand/20 blur-3xl" />
             <div className="relative max-w-md">
               <span className="font-mono text-xs uppercase tracking-[0.2em] text-brand">{t.industriaLabel}</span>
-              <p className="mt-2 font-monda text-lg font-bold leading-tight text-white sm:text-2xl">{caso.industria}</p>
+              <p className="mt-2 font-display text-lg font-bold leading-tight text-white sm:text-2xl">{caso.industria}</p>
               <p className="mt-3 hidden text-sm text-white/60 sm:block">{caso.resumenSolucion}</p>
             </div>
             <Image
@@ -84,12 +84,12 @@ export default function CasoDetalle({ copy, locale, caso }) {
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_320px]">
             <article className="min-w-0">
               <section>
-                <h2 className="font-monda text-2xl font-bold tracking-wordmark text-carbon">{t.clienteLabel}</h2>
+                <h2 className="font-display text-2xl font-bold tracking-wordmark text-carbon">{t.clienteLabel}</h2>
                 <p className="mt-4 leading-relaxed text-carbon/70">{caso.description}</p>
               </section>
 
               <section className="mt-14">
-                <h2 className="font-monda text-2xl font-bold tracking-wordmark text-carbon">{t.enfoqueLabel}</h2>
+                <h2 className="font-display text-2xl font-bold tracking-wordmark text-carbon">{t.enfoqueLabel}</h2>
                 <p className="mt-4 font-semibold text-carbon/90">{caso.enfoque.objetivo}</p>
                 <span className="mt-6 block font-mono text-xs uppercase tracking-[0.2em] text-accent-deep">
                   {t.accionesLabel}
@@ -105,7 +105,7 @@ export default function CasoDetalle({ copy, locale, caso }) {
               </section>
 
               <section className="mt-14">
-                <h2 className="font-monda text-2xl font-bold tracking-wordmark text-carbon">{t.solucionLabel}</h2>
+                <h2 className="font-display text-2xl font-bold tracking-wordmark text-carbon">{t.solucionLabel}</h2>
                 <p className="mt-4 leading-relaxed text-carbon/70">{caso.solucion.texto}</p>
 
                 <span className="mt-8 block font-mono text-xs uppercase tracking-[0.2em] text-accent-deep">
@@ -117,7 +117,7 @@ export default function CasoDetalle({ copy, locale, caso }) {
                       key={i}
                       className="rounded-2xl border border-carbon/10 bg-white p-5 shadow-sm"
                     >
-                      <h3 className="font-monda text-base font-semibold text-carbon">{cap.titulo}</h3>
+                      <h3 className="font-display text-base font-semibold text-carbon">{cap.titulo}</h3>
                       <p className="mt-2 text-sm leading-relaxed text-carbon/70">{cap.descripcion}</p>
                     </div>
                   ))}
@@ -126,7 +126,7 @@ export default function CasoDetalle({ copy, locale, caso }) {
               </section>
 
               <section className="mt-14">
-                <h2 className="font-monda text-2xl font-bold tracking-wordmark text-carbon">{t.impactoLabel}</h2>
+                <h2 className="font-display text-2xl font-bold tracking-wordmark text-carbon">{t.impactoLabel}</h2>
                 <p className="mt-4 leading-relaxed text-carbon/70">{caso.impacto.texto}</p>
                 <ul className="mt-6 space-y-3">
                   {caso.impacto.beneficios.map((beneficio, i) => (
@@ -142,7 +142,7 @@ export default function CasoDetalle({ copy, locale, caso }) {
                   <span className="font-mono text-xs uppercase tracking-[0.2em] text-accent-deep">
                     {t.industriaLabel}
                   </span>
-                  <p className="mt-2 font-monda text-sm font-semibold text-carbon">{caso.industria}</p>
+                  <p className="mt-2 font-display text-sm font-semibold text-carbon">{caso.industria}</p>
                 </div>
 
                 <div className="mt-6 border-t border-carbon/10 pt-6">
@@ -176,7 +176,7 @@ export default function CasoDetalle({ copy, locale, caso }) {
       <section className="relative overflow-hidden bg-ink px-4 py-16 text-center sm:px-6">
         <div className="pointer-events-none absolute inset-0 bg-blueprint opacity-20" />
         <div className="relative mx-auto max-w-2xl">
-          <h2 className="font-monda text-2xl font-bold tracking-wordmark text-white sm:text-3xl">{t.ctaTitle}</h2>
+          <h2 className="font-display text-2xl font-bold tracking-wordmark text-white sm:text-3xl">{t.ctaTitle}</h2>
           <p className="mt-3 text-white/70">{t.ctaSubtitle}</p>
           <a
             href={whatsappLink(ctaMessage)}
@@ -197,7 +197,7 @@ export default function CasoDetalle({ copy, locale, caso }) {
       {otrosCasos.length > 0 && (
         <section className="bg-white px-4 py-16 sm:px-6">
           <div className="mx-auto max-w-6xl">
-            <h2 className="font-monda text-xl font-bold tracking-wordmark text-carbon">{t.otrosCasosLabel}</h2>
+            <h2 className="font-display text-xl font-bold tracking-wordmark text-carbon">{t.otrosCasosLabel}</h2>
             <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
               {otrosCasos.map((item) => (
                 <Link

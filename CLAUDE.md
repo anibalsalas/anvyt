@@ -41,7 +41,7 @@ Definida en [tailwind.config.js](tailwind.config.js):
 - `ink` `#14171B`, `carbon` `#24272C` — fondos/texto principal
 - `accent` `#2196F3` (+ `accent-deep`, `accent-light`) — acento estructural
 - `whatsapp` `#25D366` — CTA de WhatsApp
-- Tipografía: `monda`, Plus Jakarta Sans, JetBrains Mono. Nav y footer son oscuros (el logo es cian).
+- Tipografía: Figtree (texto y títulos, clase `font-display` para títulos), JetBrains Mono. Nav y footer son oscuros (el logo es cian).
 
 ## Variables de entorno (ver `.env.example`; local en `.env.local`, no se commitea)
 - `NEXT_PUBLIC_WHATSAPP_NUMBER` — número internacional sin "+". Obligatoria en build de producción.

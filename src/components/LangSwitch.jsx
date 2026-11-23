@@ -70,7 +70,7 @@ export default function LangSwitch({ locale, href, label, listLabel }) {
         <span className="flex h-5 w-5 shrink-0 items-center justify-center overflow-hidden rounded-full sm:h-6 sm:w-6">
           <current.Flag />
         </span>
-        <span className="font-monda text-xs font-medium uppercase tracking-wide text-white">
+        <span className="font-display text-xs font-medium uppercase tracking-wide text-white">
           {current.code}
         </span>
         <svg
@@ -91,7 +91,7 @@ export default function LangSwitch({ locale, href, label, listLabel }) {
           className="absolute right-0 top-full z-50 mt-2 min-w-[8rem] overflow-hidden rounded-xl border border-carbon/10 bg-white py-1 shadow-lg"
         >
           <li role="option" aria-selected="true">
-            <span className="flex w-full items-center gap-2 bg-carbon/5 px-3 py-1.5 font-monda text-sm text-carbon">
+            <span className="flex w-full items-center gap-2 bg-carbon/5 px-3 py-1.5 font-display text-sm text-carbon">
               <span className="flex h-4 w-4 shrink-0 items-center justify-center overflow-hidden rounded-full">
                 <current.Flag />
               </span>
@@ -102,7 +102,7 @@ export default function LangSwitch({ locale, href, label, listLabel }) {
             <a
               href={href}
               onClick={() => setOpen(false)}
-              className="flex w-full items-center gap-2 px-3 py-1.5 font-monda text-sm text-carbon transition-colors hover:bg-carbon/5"
+              className="flex w-full items-center gap-2 px-3 py-1.5 font-display text-sm text-carbon transition-colors hover:bg-carbon/5"
             >
               <span className="flex h-4 w-4 shrink-0 items-center justify-center overflow-hidden rounded-full">
                 <other.Flag />

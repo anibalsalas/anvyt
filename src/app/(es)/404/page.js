@@ -14,7 +14,7 @@ export default function NotFoundPage() {
       <div className="pointer-events-none absolute inset-0 bg-blueprint opacity-20" />
       <div className="relative max-w-md">
         <span className="font-mono text-xs uppercase tracking-[0.2em] text-brand">{t.eyebrow}</span>
-        <h1 className="mt-4 font-monda text-3xl font-bold tracking-wordmark text-white">{t.title}</h1>
+        <h1 className="mt-4 font-display text-3xl font-bold tracking-wordmark text-white">{t.title}</h1>
         <p className="mt-3 text-white/70">{t.text}</p>
         <a
           href="/"

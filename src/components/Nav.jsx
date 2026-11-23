@@ -58,7 +58,7 @@ export default function Nav({ copy, locale, otherLocaleHref }) {
         </div>
 
         <div className="hidden sm:flex items-center gap-8">
-          <ul className="flex items-center gap-6 font-monda text-sm tracking-wide">
+          <ul className="flex items-center gap-6 font-display text-sm tracking-wide">
             {copy.nav.links.map((link, i) => (
               <li key={link.href} className="flex items-center gap-1.5">
                 <span className="font-mono text-[10px] text-brand">
@@ -76,7 +76,7 @@ export default function Nav({ copy, locale, otherLocaleHref }) {
 
       {open && (
         <div className="sm:hidden border-t border-white/10 bg-ink px-4 pb-4">
-          <ul className="flex flex-col gap-4 pt-4 font-monda text-base">
+          <ul className="flex flex-col gap-4 pt-4 font-display text-base">
             {copy.nav.links.map((link, i) => (
               <li key={link.href} className="flex items-center gap-2">
                 <span className="font-mono text-[10px] text-brand">

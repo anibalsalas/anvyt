@@ -6,7 +6,7 @@ export default function Retainer({ copy }) {
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 max-w-2xl">
           <span className="font-mono text-xs uppercase tracking-[0.2em] text-accent-deep">05</span>
-          <h2 className="mt-3 font-monda text-3xl font-bold tracking-wordmark text-carbon sm:text-4xl">
+          <h2 className="mt-3 font-display text-3xl font-bold tracking-wordmark text-carbon sm:text-4xl">
             {copy.retainer.title}
           </h2>
           <p className="mt-1 font-mono text-sm uppercase tracking-[0.15em] text-accent-deep">

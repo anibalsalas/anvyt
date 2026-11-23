@@ -17,12 +17,71 @@
     "langListLabel": "Idiomas disponibles"
   },
   "hero": {
-    "eyebrow": "Desarrollo de software a medida",
-    "title": "Reordenamos la complejidad",
-    "subtitle": "Desarrollo de software a medida para empresas que necesitan claridad, no más complejidad.",
+    "title": "Transformamos tu operación con",
+    "titleHighlight": "Software + IA",
+    "subtitle": "Desarrollamos e integramos soluciones empresariales modernas, seguras y escalables, potenciadas con inteligencia artificial para generar más eficiencia, control y mejores decisiones.",
     "cta": "Solicita una cotización",
     "secondaryCta": "Ver casos de éxito",
-    "whatsappMessage": "Hola, quiero solicitar una cotización con anvynt."
+    "whatsappMessage": "Hola, quiero solicitar una cotización con anvynt.",
+    "checks": [
+      "Soluciones a medida",
+      "Tecnología confiable",
+      "Acompañamiento continuo"
+    ],
+    "industriesLabel": "Industrias que atendemos",
+    "industries": [
+      {
+        "icon": "gov",
+        "label": "Sector Público"
+      },
+      {
+        "icon": "building",
+        "label": "Empresas"
+      },
+      {
+        "icon": "health",
+        "label": "Salud"
+      },
+      {
+        "icon": "edu",
+        "label": "Educación"
+      },
+      {
+        "icon": "users",
+        "label": "Recursos Humanos"
+      },
+      {
+        "icon": "coins",
+        "label": "Finanzas"
+      },
+      {
+        "icon": "truck",
+        "label": "Logística"
+      }
+    ],
+    "visual": {
+      "aria": "Ilustración de una plataforma con asistente de inteligencia artificial",
+      "greeting": "Hola, ¿cómo podemos ayudar?",
+      "placeholder": "Pregunta sobre tus procesos, datos o documentos…",
+      "cards": [
+        {
+          "icon": "doc",
+          "label": "Gestión Documental con IA"
+        },
+        {
+          "icon": "layers",
+          "label": "Automatización de Procesos"
+        },
+        {
+          "icon": "chart",
+          "label": "Analítica Predictiva"
+        },
+        {
+          "icon": "chat",
+          "label": "Asistente Empresarial"
+        }
+      ]
+    }
   },
   "nosotros": {
     "eyebrow": "Sobre Nosotros",

@@ -1,5 +1,5 @@
 import "../globals.css";
-import { monda, jakarta, jetbrainsMono } from "../fonts";
+import { figtree, jetbrainsMono } from "../fonts";
 import { getDictionary } from "@/i18n";
 import { getOrganizationSchema } from "@/lib/organizationSchema";
 import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
@@ -37,7 +37,7 @@ export const metadata = {
 
 export default function EsRootLayout({ children }) {
   return (
-    <html lang="es" className={`${monda.variable} ${jakarta.variable} ${jetbrainsMono.variable}`}>
+    <html lang="es" className={`${figtree.variable} ${jetbrainsMono.variable}`}>
       <body className="antialiased">
         <script
           type="application/ld+json"

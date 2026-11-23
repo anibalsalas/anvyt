@@ -17,7 +17,7 @@ export default function Footer({ copy, locale }) {
             height={126}
             className="h-9 w-auto"
           />
-          <ul className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 font-monda text-sm tracking-wide">
+          <ul className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 font-display text-sm tracking-wide">
             {copy.nav.links.map((link) => (
               <li key={link.href}>
                 <a href={`${homeHref}${link.href}`} className="text-white/70 transition-colors hover:text-brand">
