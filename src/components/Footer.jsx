@@ -6,9 +6,9 @@ export default function Footer({ copy, locale }) {
   const homeHref = locale === "es" ? "/" : "/en/";
 
   return (
-    <footer className="relative overflow-hidden bg-ink px-4 py-14 text-white sm:px-6">
+    <footer className="relative overflow-hidden bg-ink px-4 py-14 text-white sm:px-6 lg:px-8">
       <div className="pointer-events-none absolute inset-0 bg-blueprint opacity-30" />
-      <div className="relative mx-auto max-w-6xl">
+      <div className="relative mx-auto max-w-7xl">
         <div className="flex flex-col items-center justify-between gap-8 sm:flex-row">
           <Image
             src="/brand/logo.webp"

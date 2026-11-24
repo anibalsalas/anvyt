@@ -30,9 +30,9 @@ export default function CasoDetalle({ copy, locale, caso }) {
 
   return (
     <>
-      <section className="relative overflow-hidden bg-ink px-4 pb-16 pt-32 sm:px-6 sm:pt-36">
+      <section className="relative overflow-hidden bg-ink px-4 pb-16 pt-32 sm:px-6 lg:px-8 sm:pt-36">
         <div className="pointer-events-none absolute inset-0 bg-blueprint opacity-20" />
-        <div className="relative mx-auto max-w-6xl">
+        <div className="relative mx-auto max-w-7xl">
           <nav aria-label={t.breadcrumbLabel} className="font-mono text-xs uppercase tracking-wide text-white/50">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
@@ -62,8 +62,8 @@ export default function CasoDetalle({ copy, locale, caso }) {
         </div>
       </section>
 
-      <main className="bg-white px-4 py-16 sm:px-6">
-        <div className="mx-auto max-w-6xl">
+      <main className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
           <div className="relative mb-14 flex aspect-[21/9] w-full items-center justify-between overflow-hidden rounded-2xl bg-ink px-6 sm:px-12">
             <div className="pointer-events-none absolute inset-0 bg-blueprint opacity-20" />
             <div className="pointer-events-none absolute -right-16 -top-16 h-64 w-64 rounded-full bg-brand/20 blur-3xl" />
@@ -173,7 +173,7 @@ export default function CasoDetalle({ copy, locale, caso }) {
         </div>
       </main>
 
-      <section className="relative overflow-hidden bg-ink px-4 py-16 text-center sm:px-6">
+      <section className="relative overflow-hidden bg-ink px-4 py-16 text-center sm:px-6 lg:px-8">
         <div className="pointer-events-none absolute inset-0 bg-blueprint opacity-20" />
         <div className="relative mx-auto max-w-2xl">
           <h2 className="font-display text-2xl font-bold tracking-wordmark text-white sm:text-3xl">{t.ctaTitle}</h2>
@@ -195,8 +195,8 @@ export default function CasoDetalle({ copy, locale, caso }) {
       </section>
 
       {otrosCasos.length > 0 && (
-        <section className="bg-white px-4 py-16 sm:px-6">
-          <div className="mx-auto max-w-6xl">
+        <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
             <h2 className="font-display text-xl font-bold tracking-wordmark text-carbon">{t.otrosCasosLabel}</h2>
             <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
               {otrosCasos.map((item) => (

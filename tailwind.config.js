@@ -9,10 +9,10 @@ module.exports = {
       colors: {
         carbon: "#24272C",
         ink: "#14171B",
-        accent: "#2196F3",
+        accent: "#00d7da",
         brand: "#00D8DE",
         navy: "#020B1A",
-        "accent-deep": "#125FB0",
+        "accent-deep": "#00d7da",
         "accent-light": "#8FCBFF",
         mist: "#F2F3F5",
         whatsapp: "#25D366",

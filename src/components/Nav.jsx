@@ -27,7 +27,7 @@ export default function Nav({ copy, locale, otherLocaleHref }) {
     >
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand/40 to-transparent" />
       <nav
-        className={`mx-auto flex max-w-6xl items-center justify-between px-4 transition-all duration-300 ease-out sm:px-6 ${
+        className={`mx-auto flex max-w-7xl items-center justify-between px-4 transition-all duration-300 ease-out sm:px-6 lg:px-8 ${
           scrolled ? "py-2" : "py-3"
         }`}
       >

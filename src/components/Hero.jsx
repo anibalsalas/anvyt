@@ -1,4 +1,4 @@
-import { whatsappLink } from "@/lib/whatsapp";
+import QuoteCTA from "@/components/QuoteCTA";
 import Icon from "@/components/icons";
 import HeroVisual from "@/components/HeroVisual";
 
@@ -21,7 +21,7 @@ export default function Hero({ copy }) {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_75%_30%,rgba(0,216,222,0.14),transparent_55%),radial-gradient(ellipse_at_90%_60%,rgba(124,58,237,0.18),transparent_50%),radial-gradient(ellipse_at_0%_100%,rgba(0,216,222,0.12),transparent_45%)]" />
       <div className="pointer-events-none absolute inset-0 bg-blueprint opacity-[0.07]" />
 
-      <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-4 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
+      <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-4 sm:px-6 lg:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
         <div>
           <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-[3.5rem]">
             {h.title}{" "}
@@ -42,17 +42,13 @@ export default function Hero({ copy }) {
           <p className="mt-8 max-w-xl text-base leading-relaxed text-white/75 sm:text-lg sm:leading-8">{h.subtitle}</p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4 sm:gap-5">
-            <a
-              href={whatsappLink(h.whatsappMessage)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-brand to-emerald-300 px-7 py-3.5 text-base font-bold text-navy shadow-[0_0_30px_-4px_rgba(0,216,222,0.6)] transition-transform hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
-            >
-              {h.cta}
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </a>
+            <QuoteCTA
+              variant="hero"
+              copy={copy.planes.quote}
+              label={h.cta}
+              whatsappMessage={h.whatsappMessage}
+              source="hero-cotizacion"
+            />
             <a
               href="#casos"
               className="inline-flex items-center gap-2.5 rounded-full border border-white/30 px-6 py-3.5 text-base font-semibold text-white transition-colors hover:border-brand hover:text-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/60"

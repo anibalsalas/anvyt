@@ -31,3 +31,13 @@ body {
     linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
   background-size: 40px 40px;
 }
+
+/* Entrada del modal de planes */
+@keyframes plan-modal-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+.plan-modal-in { animation: plan-modal-in 220ms ease-out; }
+@media (prefers-reduced-motion: reduce) {
+  .plan-modal-in { animation: none; }
+}

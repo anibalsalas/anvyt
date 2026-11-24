@@ -1,8 +1,8 @@
 export default function Beneficios({ copy }) {
   return (
-    <section id="beneficios" className="relative overflow-hidden bg-ink px-4 py-24 sm:px-6">
+    <section id="beneficios" className="relative overflow-hidden bg-ink px-4 py-24 sm:px-6 lg:px-8">
       <div className="pointer-events-none absolute inset-0 bg-blueprint opacity-40" />
-      <div className="relative mx-auto max-w-6xl">
+      <div className="relative mx-auto max-w-7xl">
         <div className="mb-14 max-w-xl">
           <span className="font-mono text-xs uppercase tracking-[0.2em] text-accent-light">03</span>
           <h2 className="mt-3 font-display text-3xl font-bold tracking-wordmark text-white sm:text-4xl">

@@ -6,8 +6,8 @@ export default function Nosotros({ copy }) {
   const [bodyBefore, bodyAfter] = n.body.split(n.bodyHighlight);
 
   return (
-    <section id="nosotros" className="bg-mist px-4 py-24 sm:px-6">
-      <div className="mx-auto max-w-6xl">
+    <section id="nosotros" className="bg-mist px-4 py-24 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl">
         <div className="flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-accent-deep">
           <span className="font-mono text-xs text-accent-deep">01</span>
           <span className="h-px w-4 bg-accent-deep" />

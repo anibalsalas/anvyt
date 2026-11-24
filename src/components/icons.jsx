@@ -61,6 +61,30 @@ const P = {
       <path d="M8.5 10.5h.01M12 10.5h.01M15.5 10.5h.01" strokeWidth="2.4" />
     </>
   ),
+  dashboard: (
+    <>
+      <rect x="3" y="3" width="8" height="10" rx="1.5" />
+      <rect x="13" y="3" width="8" height="6" rx="1.5" />
+      <rect x="13" y="11" width="8" height="10" rx="1.5" />
+      <rect x="3" y="15" width="8" height="6" rx="1.5" />
+    </>
+  ),
+  network: (
+    <>
+      <circle cx="12" cy="5" r="2" />
+      <circle cx="5" cy="19" r="2" />
+      <circle cx="19" cy="19" r="2" />
+      <circle cx="12" cy="13" r="2" />
+      <path d="M12 7v4M10.5 14.5L6.2 17.4M13.5 14.5l4.3 2.9" />
+    </>
+  ),
+  trend: <path d="M3 17l6-6 4 4 8-9M15 6h6v6" />,
+  map: (
+    <>
+      <path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0113 0C18.5 15.4 12 21 12 21z" />
+      <circle cx="12" cy="10" r="2.3" />
+    </>
+  ),
   send: <path d="M21 3L3 10.5l7 3 3 7L21 3zM10 13.5L21 3" />,
   sparkle: <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z" />,
 };

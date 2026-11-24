@@ -4,8 +4,8 @@ export default function Casos({ copy, locale }) {
   const casosPath = locale === "es" ? "/casos/" : "/en/casos/";
 
   return (
-    <section id="casos" className="bg-white px-4 py-24 sm:px-6">
-      <div className="mx-auto max-w-6xl">
+    <section id="casos" className="bg-white px-4 py-24 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl">
         <div className="mb-12 max-w-xl">
           <span className="font-mono text-xs uppercase tracking-[0.2em] text-accent-deep">04</span>
           <h2 className="mt-3 font-display text-3xl font-bold tracking-wordmark text-carbon sm:text-4xl">

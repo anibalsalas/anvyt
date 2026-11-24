@@ -9,6 +9,12 @@ const CARD_POS = [
   "left-[-2%] top-[77%] animate-float-slow [animation-delay:-1s]",
 ];
 
+const EXTRA_POS = [
+  "right-[-1%] top-[62%] animate-float-slow [animation-delay:-3s]",
+  "right-[3%] top-[76%] animate-float [animation-delay:-5s]",
+  "right-[-1%] top-[90%] animate-float-slow [animation-delay:-1.5s]",
+];
+
 const PATHS = [
   "M236 62 C 320 62, 300 150, 360 190",
   "M236 168 C 310 168, 300 200, 350 215",
@@ -93,6 +99,17 @@ export default function HeroVisual({ visual }) {
         <div
           key={card.label}
           className={`absolute hidden w-[36%] items-center gap-2.5 rounded-xl border border-brand/30 bg-gradient-to-br from-white/10 to-white/[0.03] px-3 py-2.5 shadow-[0_8px_30px_rgba(0,0,0,0.4)] backdrop-blur-md lg:flex ${CARD_POS[i]}`}
+        >
+          <Icon name={card.icon} className="h-6 w-6 shrink-0 text-brand" />
+          <span className="text-xs font-semibold leading-tight text-white">{card.label}</span>
+        </div>
+      ))}
+
+      {/* cards flotantes extra (lado derecho, bajo el portátil) */}
+      {visual.extraCards.map((card, i) => (
+        <div
+          key={card.label}
+          className={`absolute hidden w-[34%] items-center gap-2.5 rounded-xl border border-brand/30 bg-gradient-to-br from-white/10 to-white/[0.03] px-3 py-2.5 shadow-[0_8px_30px_rgba(0,0,0,0.4)] backdrop-blur-md lg:flex ${EXTRA_POS[i]}`}
         >
           <Icon name={card.icon} className="h-6 w-6 shrink-0 text-brand" />
           <span className="text-xs font-semibold leading-tight text-white">{card.label}</span>

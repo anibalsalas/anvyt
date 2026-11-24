@@ -5,6 +5,7 @@ import Nosotros from "@/components/Nosotros";
 import Beneficios from "@/components/Beneficios";
 import Casos from "@/components/Casos";
 import Planes from "@/components/Planes";
+import DatosIA from "@/components/DatosIA";
 import Retainer from "@/components/Retainer";
 import Footer from "@/components/Footer";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <Hero copy={copy} />
         <Nosotros copy={copy} />
+        <DatosIA copy={copy} />
         <Planes copy={copy} />
         <Beneficios copy={copy} />
         <Casos copy={copy} locale="en" />

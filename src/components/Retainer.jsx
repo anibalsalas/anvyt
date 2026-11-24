@@ -1,9 +1,9 @@
-import { whatsappLink } from "@/lib/whatsapp";
+import QuoteCTA from "@/components/QuoteCTA";
 
 export default function Retainer({ copy }) {
   return (
-    <section id="retainer" className="bg-white px-4 py-24 sm:px-6">
-      <div className="mx-auto max-w-6xl">
+    <section id="retainer" className="bg-white px-4 py-24 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl">
         <div className="mb-12 max-w-2xl">
           <span className="font-mono text-xs uppercase tracking-[0.2em] text-accent-deep">05</span>
           <h2 className="mt-3 font-display text-3xl font-bold tracking-wordmark text-carbon sm:text-4xl">
@@ -31,13 +31,6 @@ export default function Retainer({ copy }) {
                   <div className="flex min-h-[3.5rem] flex-col items-center justify-center text-center">
                     <h3 className="text-xl font-bold uppercase tracking-wide text-carbon">{plan.name}</h3>
                   </div>
-                  <div className="mt-3 flex min-h-[26px] flex-wrap justify-center gap-2">
-                    {featured && (
-                      <span className="inline-block rounded-full bg-accent px-3 py-1 font-mono text-[11px] font-semibold text-white">
-                        {copy.retainer.featuredLabel}
-                      </span>
-                    )}
-                  </div>
                   <p className="mt-3 font-mono text-2xl font-bold text-accent-deep">{plan.price}</p>
                   <p className="mt-3 text-carbon/70">{plan.description}</p>
 
@@ -56,18 +49,12 @@ export default function Retainer({ copy }) {
                   </div>
                 </div>
 
-                <a
-                  href={whatsappLink(plan.whatsappMessage)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-6 block rounded-full bg-whatsapp px-5 py-2 text-center text-sm font-semibold text-white transition-colors hover:bg-whatsapp/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-whatsapp"
-                >
-                  {copy.retainer.cta}
-                </a>
               </div>
             );
           })}
         </div>
+
+        <QuoteCTA copy={copy.retainer.quote} source="retainer-cotizacion" />
 
         <div className="mt-16 border-t border-carbon/10 pt-10">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent-deep">

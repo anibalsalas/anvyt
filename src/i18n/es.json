@@ -80,6 +80,20 @@
           "icon": "chat",
           "label": "Asistente Empresarial"
         }
+      ],
+      "extraCards": [
+        {
+          "icon": "dashboard",
+          "label": "Business Intelligence"
+        },
+        {
+          "icon": "trend",
+          "label": "Machine Learning y Forecasting"
+        },
+        {
+          "icon": "map",
+          "label": "Análisis Geoespacial"
+        }
       ]
     }
   },
@@ -87,7 +101,7 @@
     "eyebrow": "Sobre Nosotros",
     "title": "anvynt: Desarrollo de software a medida que transforma el caos en crecimiento.",
     "titleHighlight": "caos en crecimiento",
-    "body": "Trabajamos con empresas que enfrentan procesos dispersos y sistemas desconectados. Reordenamos las piezas de cada problema hasta convertirlas en soluciones digitales simples, sólidas y escalables.",
+    "body": "Trabajamos con empresas que enfrentan procesos dispersos y sistemas desconectados. Reordenamos las piezas de cada problema hasta convertirlas en soluciones digitales simples, sólidas y escalables. Además del desarrollo a medida, sumamos análisis de datos, automatización e inteligencia artificial para que tus sistemas ayuden a decidir.",
     "bodyHighlight": "soluciones digitales simples, sólidas y escalables",
     "cta": "Conversemos sobre tu proyecto",
     "whatsappMessage": "Hola, quiero conversar sobre cómo anvynt puede ayudar con mi proyecto.",
@@ -125,6 +139,67 @@
       }
     ]
   },
+  "datosIA": {
+    "eyebrow": "Valor agregado",
+    "title": "Datos e Inteligencia Artificial",
+    "intro": "Además del desarrollo a medida, nuestro equipo integra análisis de datos, automatización e IA para que tus sistemas no solo guarden información, sino que te ayuden a decidir.",
+    "items": [
+      {
+        "icon": "dashboard",
+        "title": "Business Intelligence",
+        "description": "Dashboards interactivos en Power BI y aplicaciones web para monitorear indicadores y facilitar la toma de decisiones."
+      },
+      {
+        "icon": "layers",
+        "title": "Automatización de Procesos",
+        "description": "Soluciones con Python que automatizan reportes, procesamiento de Excel, extracción de información y tareas operativas."
+      },
+      {
+        "icon": "chart",
+        "title": "Análisis de Datos",
+        "description": "Limpieza, integración y análisis estadístico de bases de datos para identificar patrones, tendencias y oportunidades de mejora."
+      },
+      {
+        "icon": "network",
+        "title": "Machine Learning",
+        "description": "Modelos predictivos y de clasificación para resolver problemas concretos del negocio."
+      },
+      {
+        "icon": "trend",
+        "title": "Forecasting",
+        "description": "Pronósticos de ventas, demanda e indicadores con modelos estadísticos y series temporales."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Inteligencia Artificial",
+        "description": "Aplicaciones con IA, agentes inteligentes y automatización de tareas."
+      },
+      {
+        "icon": "map",
+        "title": "Análisis Geoespacial",
+        "description": "Mapas interactivos, análisis territorial y visualización de indicadores geográficos."
+      }
+    ],
+    "stackLabel": "Nuestro stack",
+    "stack": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "stackText": "Integramos las herramientas que cada proyecto necesite.",
+    "cta": "Cuéntanos tu caso",
+    "modalTitle": "Cuéntanos tu caso",
+    "modalHint": "Escríbelo en pocas líneas. Al enviar, se abrirá WhatsApp con tu mensaje listo para enviarnos.",
+    "placeholder": "Ej.: Necesito un dashboard que consolide las ventas de mis sucursales…",
+    "send": "Enviar por WhatsApp",
+    "empty": "Escribe tu caso antes de enviar.",
+    "closeLabel": "Cerrar",
+    "messagePrefix": "Hola, quiero consultar por los servicios de datos e IA de anvynt. Mi caso:",
+    "refTag": "ANVYNT-WEB-DATOS"
+  },
   "beneficios": {
     "title": "Beneficios",
     "items": [
@@ -147,45 +222,54 @@
     "verCasoLabel": "Ver caso completo",
     "items": [
       {
-        "slug": "sisrh",
+        "slug": "moca",
         "client": "Instituto Nacional de Defensa Civil (INDECI)",
-        "result": "Planillas 100% auditables y eliminación del riesgo legal ante Contraloría.",
-        "description": "El sistema oficial SISPER (MEF) era rígido y obligaba a recalcular las planillas en Excel de forma externa, perdiendo trazabilidad. anvynt desarrolló SISRH, un motor transaccional que reemplaza ese proceso frágil, automatiza los cálculos financieros complejos e integra el control de asistencia con auditoría completa.",
-        "metaTitle": "Planillas 100% Auditables para el Sector Público | Caso anvynt",
-        "metaDescription": "Cómo anvynt reemplazó el recálculo manual en Excel de INDECI con SISRH, un motor transaccional que automatiza planillas y elimina el riesgo ante Contraloría.",
+        "result": "Asistencia, permisos y vacaciones del personal en un solo sistema, con reportes mensuales listos para el cálculo de descuentos.",
+        "description": "El MoCA (Módulo de Control de Asistencia) es el aplicativo interno que utiliza INDECI, dentro de su Sistema Integrado de Recursos Humanos, para gestionar la jornada laboral de sus trabajadores. anvynt lo desarrolló para registrar la puntualidad, los ingresos, las salidas y la permanencia del personal, tramitar papeletas de permiso, licencias y el rol de vacaciones, y consolidar el récord mensual de cada servidor para los informes administrativos y el cálculo de descuentos.",
+        "metaTitle": "Control de Asistencia, Permisos y Vacaciones para el Sector Público | Caso anvynt",
+        "metaDescription": "MoCA: el Módulo de Control de Asistencia que anvynt desarrolló para INDECI para gestionar asistencia, permisos, licencias, vacaciones y reportes mensuales de su personal.",
         "industria": "Sector Público — Defensa Civil",
-        "resumenSolucion": "Motor transaccional de planillas con auditoría y trazabilidad completa.",
+        "resumenSolucion": "Módulo de control de asistencia, permisos y vacaciones con reportes mensuales por trabajador.",
         "tecnologias": [
           "Aplicación web a medida",
-          "Motor de cálculo transaccional",
-          "Control de asistencia integrado",
-          "Auditoría y trazabilidad",
-          "Exportación de reportes"
+          "Registro de asistencia y puntualidad",
+          "Flujo de papeletas, licencias y vacaciones",
+          "Reportes mensuales consolidados",
+          "Integración con el Sistema Integrado de RR. HH."
         ],
         "enfoque": {
-          "objetivo": "Reemplazar el recálculo manual en Excel —que generaba pérdida de trazabilidad y exposición ante Contraloría— por un motor transaccional confiable y 100% auditable.",
+          "objetivo": "Reemplazar el control manual de la jornada laboral por un módulo único que registre la asistencia, ordene la tramitación de permisos y vacaciones, y entregue cada mes un récord confiable por trabajador.",
           "acciones": [
-            "Relevamiento del proceso de planillas y de las reglas de cálculo que el sistema oficial SISPER no cubría.",
-            "Diseño de un motor de cálculo transaccional propio, independiente del sistema rígido del MEF.",
-            "Integración del control de asistencia como fuente única de datos para el cálculo de haberes.",
-            "Incorporación de un registro de auditoría completo sobre cada movimiento de planilla."
+            "Relevamiento de las reglas de jornada, tolerancias, tipos de permiso y licencias que aplican a los servidores.",
+            "Diseño del registro de ingresos, salidas y permanencia para medir la puntualidad de cada trabajador.",
+            "Construcción del flujo de trámite y aprobación de papeletas de permiso, licencias y rol de vacaciones.",
+            "Integración del módulo con el Sistema Integrado de Recursos Humanos y generación de reportes mensuales."
           ]
         },
         "solucion": {
-          "texto": "anvynt desarrolló SISRH, un sistema que centraliza el cálculo y la gestión de planillas de INDECI en un único motor transaccional, eliminando el uso de hojas de cálculo externas y las inconsistencias que ese proceso generaba.",
+          "texto": "anvynt desarrolló MoCA, el módulo que gestiona la jornada laboral de los trabajadores de INDECI dentro de su Sistema Integrado de Recursos Humanos, desde el marcado diario hasta el informe mensual.",
           "capacidades": [
-            { "titulo": "Motor de Cálculo Transaccional", "descripcion": "Automatiza los cálculos financieros complejos de planilla, sustituyendo el recálculo manual en Excel." },
-            { "titulo": "Control de Asistencia Integrado", "descripcion": "Une el registro de asistencia con el cálculo de haberes en un mismo flujo, sin pasos manuales intermedios." },
-            { "titulo": "Auditoría Completa", "descripcion": "Cada cálculo y movimiento queda registrado y es trazable, listo para revisión de Contraloría." }
+            {
+              "titulo": "Control de Asistencia",
+              "descripcion": "Registra la puntualidad, los ingresos, las salidas y la permanencia del personal en la institución."
+            },
+            {
+              "titulo": "Gestión de Permisos y Vacaciones",
+              "descripcion": "Permite tramitar, aprobar y administrar las papeletas de permiso, las licencias y el rol de vacaciones de los servidores."
+            },
+            {
+              "titulo": "Reportes Mensuales",
+              "descripcion": "Consolida el récord de asistencia de cada trabajador para elaborar informes administrativos y calcular los descuentos correspondientes."
+            }
           ]
         },
         "impacto": {
-          "texto": "El nuevo sistema transformó la gestión de planillas de INDECI, dejando atrás un proceso frágil y sin trazabilidad.",
+          "texto": "MoCA centralizó en un solo módulo la gestión de la jornada laboral de INDECI y dejó el récord de cada trabajador listo para su uso administrativo.",
           "beneficios": [
-            "Planillas 100% auditables, eliminando el riesgo legal ante Contraloría.",
-            "Fin del recálculo manual en Excel y de la pérdida de trazabilidad asociada.",
-            "Cálculos financieros complejos automatizados de punta a punta.",
-            "Control de asistencia y planillas integrados en un solo flujo."
+            "Asistencia, puntualidad y permanencia del personal registradas en un solo sistema.",
+            "Papeletas, licencias y rol de vacaciones tramitados y aprobados dentro del mismo flujo.",
+            "Récord mensual consolidado por trabajador, listo para informes administrativos.",
+            "Cálculo de descuentos basado en datos de asistencia consistentes."
           ]
         }
       },
@@ -233,45 +317,48 @@
         }
       },
       {
-        "slug": "gdr-ffaa",
+        "slug": "sisconv-convocatorias",
         "client": "Agencia de Compras de las Fuerzas Armadas",
-        "result": "Digitalización al 100% del ciclo de evaluación SERVIR y generación automatizada de reportes oficiales.",
-        "description": "Las evaluaciones de desempeño exigidas por la Ley SERVIR se gestionaban en Word y Excel aislados, sin control de plazos. anvynt desarrolló un Sistema de Gestión del Rendimiento (GDR) que digitaliza el ciclo anual completo, automatiza el Formato GDR en PDF y aplica control de acceso basado en 8 roles normativos.",
-        "metaTitle": "Digitalización de Evaluaciones SERVIR en Defensa | Caso anvynt",
-        "metaDescription": "anvynt digitalizó al 100% el ciclo de evaluación de desempeño SERVIR de la Agencia de Compras de las Fuerzas Armadas, con reportes PDF automatizados.",
+        "result": "Ciclo completo de convocatorias CAS digitalizado, desde el requerimiento de plaza hasta la contratación, con un portal ciudadano para postulantes.",
+        "description": "Los procesos de convocatoria de personal CAS —requerimiento, publicación, postulación, evaluación y contratación— se gestionaban de forma dispersa, sin un expediente único ni trazabilidad de cada etapa. anvynt desarrolló SISCONV, un sistema que digitaliza el ciclo de vida completo de la convocatoria, con un portal público para los postulantes y un sistema institucional para la gestión interna, y que además incorpora una capa de inteligencia artificial como valor agregado.",
+        "metaTitle": "Sistema de Convocatorias CAS con IA para Defensa | Caso anvynt",
+        "metaDescription": "SISCONV: el sistema de convocatorias que anvynt desarrolló para la Agencia de Compras de las Fuerzas Armadas, con portal de postulantes, selección, transparencia y contratación.",
         "industria": "Sector Público — Defensa",
-        "resumenSolucion": "Digitalización del ciclo de evaluación de desempeño SERVIR con control de acceso por roles.",
+        "resumenSolucion": "Sistema web que digitaliza el ciclo de vida de las convocatorias CAS, con portal ciudadano, selección en línea y capa de IA como valor agregado.",
         "tecnologias": [
-          "Aplicación web a medida",
-          "Generación automatizada de PDF",
-          "Control de acceso basado en roles (RBAC)",
-          "Control de plazos y flujos de aprobación",
-          "Reportes oficiales"
+          "Java 21 y Spring Boot 3",
+          "Angular 19 (portal y sistema institucional)",
+          "Base de datos Oracle",
+          "Seguridad con JWT y control de acceso por roles",
+          "Notificaciones automáticas por correo",
+          "Inteligencia artificial aplicada a la selección (valor agregado)"
         ],
         "enfoque": {
-          "objetivo": "Digitalizar el ciclo anual de evaluación de desempeño exigido por la Ley SERVIR, hoy disperso en documentos de Word y Excel sin control de plazos.",
+          "objetivo": "Reemplazar la gestión dispersa de las convocatorias CAS por un flujo digital único, transparente y trazable, que acompañe al postulante y a la institución en cada etapa.",
           "acciones": [
-            "Relevamiento del ciclo de evaluación SERVIR y de los roles normativos involucrados.",
-            "Diseño de un flujo digital único que reemplaza los documentos aislados de Word y Excel.",
-            "Automatización de la generación del Formato GDR en PDF conforme a la normativa.",
-            "Implementación de control de acceso basado en 8 roles normativos distintos."
+            "Levantamiento del ciclo de convocatoria CAS y de los roles que intervienen en cada etapa.",
+            "Diseño de un portal público para postulantes y de un sistema institucional para la gestión interna.",
+            "Construcción de los módulos de requerimiento, convocatoria, postulación, selección, notificaciones y contratación.",
+            "Registro de auditoría y transparencia de las acciones relevantes del proceso."
           ]
         },
         "solucion": {
-          "texto": "anvynt desarrolló el Sistema de Gestión del Rendimiento (GDR), que digitaliza el ciclo anual completo de evaluación de desempeño de la Agencia de Compras de las Fuerzas Armadas.",
+          "texto": "anvynt desarrolló SISCONV, un sistema que cubre el ciclo completo de la convocatoria: requerimiento de plaza, convocatoria, postulación, expediente virtual, selección, notificaciones, transparencia y contratación.",
           "capacidades": [
-            { "titulo": "Ciclo de Evaluación Digital", "descripcion": "El ciclo anual SERVIR completo pasa de documentos aislados a un flujo digital único y con control de plazos." },
-            { "titulo": "Generación Automatizada de Reportes", "descripcion": "El Formato GDR se genera en PDF de forma automática, listo para presentación oficial." },
-            { "titulo": "Control de Acceso por Roles", "descripcion": "8 roles normativos distintos, cada uno con permisos ajustados a su función dentro del ciclo de evaluación." }
+            { "titulo": "Portal del Postulante", "descripcion": "Consulta de convocatorias públicas, registro, postulación en línea, expediente virtual, tachas, resultados y examen virtual." },
+            { "titulo": "Selección Digital", "descripcion": "Evaluación curricular, evaluación técnica y entrevista gestionadas dentro del mismo flujo, con banco de preguntas para los exámenes." },
+            { "titulo": "Gestión Institucional", "descripcion": "Requerimientos de plaza, convocatorias, notificaciones, contratos y administración de usuarios y áreas, con acceso según el rol de cada usuario." },
+            { "titulo": "Transparencia y Trazabilidad", "descripcion": "Las acciones relevantes quedan registradas en un log de transparencia, disponible para auditoría." },
+            { "titulo": "Capa de IA como Valor Agregado", "descripcion": "Asistencia con inteligencia artificial para la preselección de expedientes, el resumen de perfiles frente al perfil de puesto y el apoyo al postulante, siempre con la decisión final en manos de la institución." }
           ]
         },
         "impacto": {
-          "texto": "El GDR transformó un proceso disperso en Word y Excel en un ciclo de evaluación digital, trazable y conforme a la normativa SERVIR.",
+          "texto": "SISCONV llevó la gestión de las convocatorias CAS a un solo sistema, con un proceso de selección digital, transparente y trazable.",
           "beneficios": [
-            "Digitalización al 100% del ciclo de evaluación SERVIR.",
-            "Generación automatizada de reportes oficiales en PDF.",
-            "Control de acceso basado en 8 roles normativos.",
-            "Fin del uso de Word y Excel aislados, sin control de plazos."
+            "Ciclo de convocatoria completo en un solo sistema, del requerimiento a la contratación.",
+            "Postulación y seguimiento en línea para los postulantes, con expediente virtual.",
+            "Trazabilidad y transparencia de cada etapa del proceso de selección.",
+            "Base lista para incorporar inteligencia artificial que agilice la revisión de expedientes."
           ]
         }
       }
@@ -301,7 +388,6 @@
   "planes": {
     "title": "Nuestros Paquetes de Servicios",
     "cta": "Solicita una cotización",
-    "featuredLabel": "Recomendado",
     "quote": {
       "button": "Solicita una cotización a medida",
       "choiceTitle": "¿Cómo prefieres que te contactemos?",
@@ -323,7 +409,7 @@
     "funcionesPremiumLabel": "Funciones Premium:",
     "ejemplosLabel": "Ejemplos:",
     "verMasLabel": "Ver qué incluye",
-    "verMenosLabel": "Ocultar detalles",
+    "closeLabel": "Cerrar",
     "items": [
       {
         "name": "Control & Accesos",
@@ -423,8 +509,22 @@
     "subtitle": "Team as a Service",
     "intro": "Si prefieres capacidad de desarrollo constante en lugar de proyectos cerrados, este es el modelo estándar del mercado para asegurar evolución continua a tu plataforma.",
     "alcanceLabel": "Alcance:",
-    "featuredLabel": "Recomendado",
-    "cta": "Solicita una cotización",
+    "quote": {
+      "button": "Solicita una cotización a medida",
+      "choiceTitle": "¿Cómo prefieres que te contactemos?",
+      "whatsapp": "Por WhatsApp",
+      "whatsappMessage": "Hola, quiero una cotización de un plan de suscripción de anvynt.",
+      "email": "Dejar mi correo",
+      "emailLabel": "Tu correo electrónico",
+      "emailPlaceholder": "tu@empresa.com",
+      "submit": "Enviar",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Te escribiremos pronto.",
+      "invalid": "Ingresa un correo válido.",
+      "error": "No pudimos enviar tu correo. Inténtalo de nuevo o escríbenos por WhatsApp.",
+      "back": "Volver",
+      "closeLabel": "Cerrar opciones"
+    },
     "garantiasTitle": "Cómo trabajamos",
     "garantias": [
       {
@@ -443,7 +543,6 @@
     "items": [
       {
         "name": "Mantenimiento y Soporte",
-        "price": "$500 / mes",
         "description": "Ideal para mantener sistemas existentes seguros y actualizados.",
         "alcance": [
           "Resolución de bugs, actualizaciones de seguridad y pequeños ajustes en componentes.",
@@ -454,7 +553,6 @@
       },
       {
         "name": "Célula de Desarrollo (Part-time)",
-        "price": "$1000 / mes",
         "description": "Capacidad de desarrollo continuo para evolucionar tu plataforma.",
         "alcance": [
           "Desarrollo full-stack enfocado en evolución.",
@@ -466,7 +564,6 @@
       },
       {
         "name": "Equipo Dedicado",
-        "price": "Desde $2000 / mes",
         "description": "Un socio tecnológico in-house para acelerar tu roadmap.",
         "alcance": [
           "Dedicación exclusiva y despliegue continuo.",

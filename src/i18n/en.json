@@ -80,6 +80,20 @@
           "icon": "chat",
           "label": "Enterprise Assistant"
         }
+      ],
+      "extraCards": [
+        {
+          "icon": "dashboard",
+          "label": "Business Intelligence"
+        },
+        {
+          "icon": "trend",
+          "label": "Machine Learning and Forecasting"
+        },
+        {
+          "icon": "map",
+          "label": "Geospatial Analysis"
+        }
       ]
     }
   },
@@ -87,7 +101,7 @@
     "eyebrow": "About Us",
     "title": "anvynt: Custom software development that turns chaos into growth.",
     "titleHighlight": "chaos into growth",
-    "body": "We work with companies facing scattered processes and disconnected systems. We reorder the pieces of every problem into simple, solid, and scalable digital solutions.",
+    "body": "We work with companies facing scattered processes and disconnected systems. We reorder the pieces of every problem into simple, solid, and scalable digital solutions. Beyond custom development, we add data analysis, automation, and artificial intelligence so your systems help you make decisions.",
     "bodyHighlight": "simple, solid, and scalable digital solutions",
     "cta": "Let's talk about your project",
     "whatsappMessage": "Hi, I'd like to talk about how anvynt can help with my project.",
@@ -125,6 +139,67 @@
       }
     ]
   },
+  "datosIA": {
+    "eyebrow": "Added value",
+    "title": "Data and Artificial Intelligence",
+    "intro": "Beyond custom development, our team brings data analysis, automation and AI so your systems don't just store information, they help you make decisions.",
+    "items": [
+      {
+        "icon": "dashboard",
+        "title": "Business Intelligence",
+        "description": "Interactive dashboards in Power BI and web applications to track indicators and support decision-making."
+      },
+      {
+        "icon": "layers",
+        "title": "Process Automation",
+        "description": "Python solutions that automate reports, Excel processing, data extraction and operational tasks."
+      },
+      {
+        "icon": "chart",
+        "title": "Data Analysis",
+        "description": "Cleaning, integration and statistical analysis of databases to uncover patterns, trends and improvement opportunities."
+      },
+      {
+        "icon": "network",
+        "title": "Machine Learning",
+        "description": "Predictive and classification models to solve specific business problems."
+      },
+      {
+        "icon": "trend",
+        "title": "Forecasting",
+        "description": "Sales, demand and indicator forecasts built with statistical models and time series."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Artificial Intelligence",
+        "description": "AI applications, intelligent agents and task automation."
+      },
+      {
+        "icon": "map",
+        "title": "Geospatial Analysis",
+        "description": "Interactive maps, territorial analysis and visualization of geographic indicators."
+      }
+    ],
+    "stackLabel": "Our stack",
+    "stack": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "stackText": "We integrate whatever tools each project needs.",
+    "cta": "Tell us about your case",
+    "modalTitle": "Tell us about your case",
+    "modalHint": "Write it in a few lines. When you send it, WhatsApp will open with your message ready to send to us.",
+    "placeholder": "E.g.: I need a dashboard that consolidates sales across my branches…",
+    "send": "Send via WhatsApp",
+    "empty": "Write your case before sending.",
+    "closeLabel": "Close",
+    "messagePrefix": "Hi, I would like to ask about anvynt’s data and AI services. My case:",
+    "refTag": "ANVYNT-WEB-DATOS"
+  },
   "beneficios": {
     "title": "Benefits",
     "items": [
@@ -147,45 +222,54 @@
     "verCasoLabel": "View full case",
     "items": [
       {
-        "slug": "sisrh",
+        "slug": "moca",
         "client": "National Civil Defense Institute (INDECI)",
-        "result": "100% auditable payroll and elimination of legal risk before the Comptroller's Office.",
-        "description": "The official SISPER system (MEF) was rigid and forced payroll to be recalculated externally in Excel, losing traceability. anvynt developed SISRH, a transactional engine that replaces that fragile process, automates complex financial calculations, and integrates attendance control with full auditing.",
-        "metaTitle": "100% Auditable Payroll for the Public Sector | anvynt Case Study",
-        "metaDescription": "How anvynt replaced INDECI's manual Excel payroll recalculation with SISRH, a transactional engine that automates payroll and removes the risk before the Comptroller's Office.",
+        "result": "Attendance, leave, and vacations in a single system, with monthly reports ready for deduction calculations.",
+        "description": "MoCA (Attendance Control Module) is the internal application INDECI uses, within its Integrated Human Resources System, to manage its employees' working hours. anvynt developed it to record punctuality, check-ins, check-outs, and time on site, process leave slips, licenses, and the vacation schedule, and consolidate each employee's monthly record for administrative reports and deduction calculations.",
+        "metaTitle": "Attendance, Leave, and Vacation Control for the Public Sector | anvynt Case Study",
+        "metaDescription": "MoCA: the Attendance Control Module anvynt built for INDECI to manage attendance, leave, licenses, vacations, and monthly reports for its staff.",
         "industria": "Public Sector — Civil Defense",
-        "resumenSolucion": "Transactional payroll engine with full auditing and traceability.",
+        "resumenSolucion": "Attendance, leave, and vacation module with monthly per-employee reports.",
         "tecnologias": [
           "Custom web application",
-          "Transactional calculation engine",
-          "Integrated attendance control",
-          "Auditing and traceability",
-          "Report exporting"
+          "Attendance and punctuality tracking",
+          "Leave slip, license, and vacation workflow",
+          "Consolidated monthly reports",
+          "Integration with the Integrated HR System"
         ],
         "enfoque": {
-          "objetivo": "Replace manual Excel recalculation —which caused loss of traceability and legal exposure before the Comptroller's Office— with a reliable, 100% auditable transactional engine.",
+          "objetivo": "Replace manual working-hours control with a single module that records attendance, streamlines leave and vacation requests, and delivers a reliable monthly record for every employee.",
           "acciones": [
-            "Assessed the payroll process and the calculation rules the official SISPER system didn't cover.",
-            "Designed a proprietary transactional calculation engine, independent of the MEF's rigid system.",
-            "Integrated attendance control as the single data source for wage calculations.",
-            "Added a full audit trail for every payroll movement."
+            "Assessed the working-hours rules, tolerances, leave types, and licenses that apply to public servants.",
+            "Designed check-in, check-out, and time-on-site tracking to measure each employee's punctuality.",
+            "Built the request and approval workflow for leave slips, licenses, and the vacation schedule.",
+            "Integrated the module with the Integrated Human Resources System and generated monthly reports."
           ]
         },
         "solucion": {
-          "texto": "anvynt developed SISRH, a system that centralizes INDECI's payroll calculation and management in a single transactional engine, eliminating external spreadsheets and the inconsistencies that process caused.",
+          "texto": "anvynt developed MoCA, the module that manages INDECI employees' working hours within its Integrated Human Resources System, from daily clock-in to the monthly report.",
           "capacidades": [
-            { "titulo": "Transactional Calculation Engine", "descripcion": "Automates complex payroll financial calculations, replacing manual Excel recalculation." },
-            { "titulo": "Integrated Attendance Control", "descripcion": "Joins attendance records with wage calculation in a single flow, with no manual steps in between." },
-            { "titulo": "Full Auditing", "descripcion": "Every calculation and movement is logged and traceable, ready for Comptroller's Office review." }
+            {
+              "titulo": "Attendance Control",
+              "descripcion": "Records punctuality, check-ins, check-outs, and staff time on site at the institution."
+            },
+            {
+              "titulo": "Leave and Vacation Management",
+              "descripcion": "Lets staff process, approve, and manage leave slips, licenses, and the vacation schedule for public servants."
+            },
+            {
+              "titulo": "Monthly Reports",
+              "descripcion": "Consolidates each employee's attendance record to produce administrative reports and calculate the corresponding deductions."
+            }
           ]
         },
         "impacto": {
-          "texto": "The new system transformed INDECI's payroll management, leaving behind a fragile process with no traceability.",
+          "texto": "MoCA brought INDECI's working-hours management into a single module and left each employee's record ready for administrative use.",
           "beneficios": [
-            "100% auditable payroll, removing the legal risk before the Comptroller's Office.",
-            "End of manual Excel recalculation and the traceability loss it caused.",
-            "Complex financial calculations automated end to end.",
-            "Attendance control and payroll integrated into a single flow."
+            "Attendance, punctuality, and time on site recorded in a single system.",
+            "Leave slips, licenses, and the vacation schedule processed and approved in the same workflow.",
+            "Consolidated monthly record per employee, ready for administrative reports.",
+            "Deduction calculations based on consistent attendance data."
           ]
         }
       },
@@ -233,45 +317,48 @@
         }
       },
       {
-        "slug": "gdr-ffaa",
+        "slug": "sisconv-convocatorias",
         "client": "Armed Forces Procurement Agency",
-        "result": "100% digitization of the SERVIR evaluation cycle and automated generation of official reports.",
-        "description": "Performance evaluations required by the SERVIR Law were managed in isolated Word and Excel files, with no deadline control. anvynt developed a Performance Management System (GDR) that digitizes the entire annual cycle, automates the GDR PDF report, and applies access control based on 8 regulatory roles.",
-        "metaTitle": "Digitizing SERVIR Evaluations for Defense | anvynt Case Study",
-        "metaDescription": "anvynt fully digitized the SERVIR performance evaluation cycle for the Armed Forces Procurement Agency, with automated PDF reporting.",
+        "result": "Full CAS recruitment cycle digitized, from position request to hiring, with a public portal for applicants.",
+        "description": "CAS staff recruitment processes —position request, publication, application, evaluation and hiring— were handled in a scattered way, with no single applicant file and no traceability of each stage. anvynt developed SISCONV, a system that digitizes the entire recruitment lifecycle, with a public portal for applicants and an institutional system for internal management, and that also adds an artificial intelligence layer as added value.",
+        "metaTitle": "AI-Powered CAS Recruitment System for Defense | anvynt Case Study",
+        "metaDescription": "SISCONV: the recruitment system anvynt built for the Armed Forces Procurement Agency, with an applicant portal, selection, transparency and hiring.",
         "industria": "Public Sector — Defense",
-        "resumenSolucion": "Digitized the SERVIR performance evaluation cycle with role-based access control.",
+        "resumenSolucion": "Web system that digitizes the CAS recruitment lifecycle, with a public portal, online selection and an AI layer as added value.",
         "tecnologias": [
-          "Custom web application",
-          "Automated PDF generation",
-          "Role-based access control (RBAC)",
-          "Deadline control and approval flows",
-          "Official reporting"
+          "Java 21 and Spring Boot 3",
+          "Angular 19 (portal and institutional system)",
+          "Oracle database",
+          "JWT security and role-based access control",
+          "Automatic email notifications",
+          "Artificial intelligence applied to selection (added value)"
         ],
         "enfoque": {
-          "objetivo": "Digitize the annual performance evaluation cycle required by the SERVIR Law, until now scattered across Word and Excel files with no deadline control.",
+          "objetivo": "Replace the scattered management of CAS recruitment with a single, transparent and traceable digital flow that supports both applicants and the institution at every stage.",
           "acciones": [
-            "Assessed the SERVIR evaluation cycle and the regulatory roles involved.",
-            "Designed a single digital flow to replace the isolated Word and Excel files.",
-            "Automated the generation of the official GDR report as a PDF.",
-            "Implemented access control based on 8 distinct regulatory roles."
+            "Mapped the CAS recruitment cycle and the roles involved at each stage.",
+            "Designed a public portal for applicants and an institutional system for internal management.",
+            "Built the modules for position requests, recruitment calls, applications, selection, notifications and hiring.",
+            "Recorded audit and transparency logs for the relevant actions in the process."
           ]
         },
         "solucion": {
-          "texto": "anvynt developed the Performance Management System (GDR), which digitizes the full annual performance evaluation cycle for the Armed Forces Procurement Agency.",
+          "texto": "anvynt developed SISCONV, a system covering the full recruitment cycle: position request, recruitment call, application, virtual file, selection, notifications, transparency and hiring.",
           "capacidades": [
-            { "titulo": "Digital Evaluation Cycle", "descripcion": "The full annual SERVIR cycle moves from isolated documents to a single digital flow with deadline control." },
-            { "titulo": "Automated Report Generation", "descripcion": "The GDR report is generated as a PDF automatically, ready for official submission." },
-            { "titulo": "Role-Based Access Control", "descripcion": "8 distinct regulatory roles, each with permissions tailored to its function within the evaluation cycle." }
+            { "titulo": "Applicant Portal", "descripcion": "Browse public calls, register, apply online, keep a virtual file, file objections, see results and take the virtual exam." },
+            { "titulo": "Digital Selection", "descripcion": "Résumé review, technical evaluation and interview handled in the same flow, with a question bank for the exams." },
+            { "titulo": "Institutional Management", "descripcion": "Position requests, recruitment calls, notifications, contracts and user and area administration, with access based on each user's role." },
+            { "titulo": "Transparency and Traceability", "descripcion": "Relevant actions are recorded in a transparency log, available for audit." },
+            { "titulo": "AI Layer as Added Value", "descripcion": "AI assistance for screening applicant files, summarizing profiles against the job profile and supporting applicants, always with the final decision left to the institution." }
           ]
         },
         "impacto": {
-          "texto": "GDR turned a process scattered across Word and Excel into a digital, traceable evaluation cycle compliant with SERVIR regulations.",
+          "texto": "SISCONV brought CAS recruitment management into a single system, with a digital, transparent and traceable selection process.",
           "beneficios": [
-            "100% digitization of the SERVIR evaluation cycle.",
-            "Automated generation of official PDF reports.",
-            "Access control based on 8 regulatory roles.",
-            "End of isolated, deadline-uncontrolled Word and Excel files."
+            "Full recruitment cycle in one system, from position request to hiring.",
+            "Online application and follow-up for applicants, with a virtual file.",
+            "Traceability and transparency at every stage of the selection process.",
+            "A foundation ready to add artificial intelligence that speeds up file review."
           ]
         }
       }
@@ -301,7 +388,6 @@
   "planes": {
     "title": "Our Service Packages",
     "cta": "Request a quote",
-    "featuredLabel": "Recommended",
     "quote": {
       "button": "Request a custom quote",
       "choiceTitle": "How would you like us to reach you?",
@@ -323,7 +409,7 @@
     "funcionesPremiumLabel": "Premium Features:",
     "ejemplosLabel": "Examples:",
     "verMasLabel": "See what's included",
-    "verMenosLabel": "Hide details",
+    "closeLabel": "Close",
     "items": [
       {
         "name": "Access & Security Control",
@@ -423,8 +509,22 @@
     "subtitle": "Team as a Service",
     "intro": "If you'd prefer steady development capacity instead of closed-scope projects, this is the market-standard model to ensure continuous evolution of your platform.",
     "alcanceLabel": "Scope:",
-    "featuredLabel": "Recommended",
-    "cta": "Request a quote",
+    "quote": {
+      "button": "Request a custom quote",
+      "choiceTitle": "How would you like us to reach you?",
+      "whatsapp": "Via WhatsApp",
+      "whatsappMessage": "Hi, I'd like a quote for an anvynt subscription plan.",
+      "email": "Leave my email",
+      "emailLabel": "Your email address",
+      "emailPlaceholder": "you@company.com",
+      "submit": "Send",
+      "sending": "Sending…",
+      "success": "Thank you! We'll be in touch soon.",
+      "invalid": "Enter a valid email.",
+      "error": "We couldn't send your email. Try again or message us on WhatsApp.",
+      "back": "Back",
+      "closeLabel": "Close options"
+    },
     "garantiasTitle": "How we work",
     "garantias": [
       {
