@@ -54,7 +54,7 @@ export default function Retainer({ copy }) {
           })}
         </div>
 
-        <QuoteCTA copy={copy.retainer.quote} source="retainer-cotizacion" />
+        <QuoteCTA copy={copy.retainer.quote} />
 
         <div className="mt-16 border-t border-carbon/10 pt-10">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent-deep">

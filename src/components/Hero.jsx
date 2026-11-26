@@ -47,7 +47,6 @@ export default function Hero({ copy }) {
               copy={copy.planes.quote}
               label={h.cta}
               whatsappMessage={h.whatsappMessage}
-              source="hero-cotizacion"
             />
             <a
               href="#casos"

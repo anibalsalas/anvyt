@@ -390,19 +390,7 @@
     "cta": "Solicita una cotización",
     "quote": {
       "button": "Solicita una cotización a medida",
-      "choiceTitle": "¿Cómo prefieres que te contactemos?",
-      "whatsapp": "Por WhatsApp",
-      "whatsappMessage": "Hola, quiero una cotización a medida de anvynt.",
-      "email": "Dejar mi correo",
-      "emailLabel": "Tu correo electrónico",
-      "emailPlaceholder": "tu@empresa.com",
-      "submit": "Enviar",
-      "sending": "Enviando…",
-      "success": "¡Gracias! Te escribiremos pronto.",
-      "invalid": "Ingresa un correo válido.",
-      "error": "No pudimos enviar tu correo. Inténtalo de nuevo o escríbenos por WhatsApp.",
-      "back": "Volver",
-      "closeLabel": "Cerrar opciones"
+      "whatsappMessage": "Hola, quiero una cotización a medida de anvynt."
     },
     "idealParaLabel": "Ideal para:",
     "incluyeLabel": "Incluye:",
@@ -511,19 +499,7 @@
     "alcanceLabel": "Alcance:",
     "quote": {
       "button": "Solicita una cotización a medida",
-      "choiceTitle": "¿Cómo prefieres que te contactemos?",
-      "whatsapp": "Por WhatsApp",
-      "whatsappMessage": "Hola, quiero una cotización de un plan de suscripción de anvynt.",
-      "email": "Dejar mi correo",
-      "emailLabel": "Tu correo electrónico",
-      "emailPlaceholder": "tu@empresa.com",
-      "submit": "Enviar",
-      "sending": "Enviando…",
-      "success": "¡Gracias! Te escribiremos pronto.",
-      "invalid": "Ingresa un correo válido.",
-      "error": "No pudimos enviar tu correo. Inténtalo de nuevo o escríbenos por WhatsApp.",
-      "back": "Volver",
-      "closeLabel": "Cerrar opciones"
+      "whatsappMessage": "Hola, quiero una cotización de un plan de suscripción de anvynt."
     },
     "garantiasTitle": "Cómo trabajamos",
     "garantias": [

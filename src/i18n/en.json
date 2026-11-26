@@ -390,19 +390,7 @@
     "cta": "Request a quote",
     "quote": {
       "button": "Request a custom quote",
-      "choiceTitle": "How would you like us to reach you?",
-      "whatsapp": "Via WhatsApp",
-      "whatsappMessage": "Hi, I'd like a custom quote from anvynt.",
-      "email": "Leave my email",
-      "emailLabel": "Your email address",
-      "emailPlaceholder": "you@company.com",
-      "submit": "Send",
-      "sending": "Sending…",
-      "success": "Thank you! We'll be in touch soon.",
-      "invalid": "Enter a valid email.",
-      "error": "We couldn't send your email. Try again or message us on WhatsApp.",
-      "back": "Back",
-      "closeLabel": "Close options"
+      "whatsappMessage": "Hi, I'd like a custom quote from anvynt."
     },
     "idealParaLabel": "Ideal for:",
     "incluyeLabel": "Includes:",
@@ -511,19 +499,7 @@
     "alcanceLabel": "Scope:",
     "quote": {
       "button": "Request a custom quote",
-      "choiceTitle": "How would you like us to reach you?",
-      "whatsapp": "Via WhatsApp",
-      "whatsappMessage": "Hi, I'd like a quote for an anvynt subscription plan.",
-      "email": "Leave my email",
-      "emailLabel": "Your email address",
-      "emailPlaceholder": "you@company.com",
-      "submit": "Send",
-      "sending": "Sending…",
-      "success": "Thank you! We'll be in touch soon.",
-      "invalid": "Enter a valid email.",
-      "error": "We couldn't send your email. Try again or message us on WhatsApp.",
-      "back": "Back",
-      "closeLabel": "Close options"
+      "whatsappMessage": "Hi, I'd like a quote for an anvynt subscription plan."
     },
     "garantiasTitle": "How we work",
     "garantias": [
